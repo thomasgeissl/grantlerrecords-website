@@ -98,7 +98,7 @@ const IndexPage = () => (
       <li>
         <h2>comming soon</h2>
         <Meta>2020/03/22</Meta>
-        <p>more content is hopefully comming soon.</p>
+        <p>more content is hopefully coming soon.</p>
       </li>
       <li>
         <h2>hello world</h2>
