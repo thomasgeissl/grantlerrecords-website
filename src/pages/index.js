@@ -50,7 +50,7 @@ const Meta = styled.div`
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="home" />
     <About>
       <p>
         hello folks,<br></br>
