@@ -1,8 +1,9 @@
 module.exports = {
+  pathPrefix: "/grantlerrecords-website",
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `grantler records`,
+    description: ``,
+    author: `grantler records`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -30,5 +31,20 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Rajdhani`,
+            variants: [`400`, `700`],
+          },
+          {
+            family: `Rajdhani`,
+            subsets: [`latin`],
+          },
+        ],
+      },
+    },
   ],
 }
