@@ -19,9 +19,9 @@ const Container = styled.footer`
 export default () => {
   return (
     <Container>
-      this website does not use cookies and does not track you. <br></br>©{" "}
-      {new Date().getFullYear()} grantler records,{" "}
-      <Link to="/imprint">imprint</Link>
+      this website does not use cookies and does not track you. unfortunately,
+      embedded content may be different.<br></br>© {new Date().getFullYear()}{" "}
+      grantler records, <Link to="/imprint">imprint</Link>
     </Container>
   )
 }

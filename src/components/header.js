@@ -3,6 +3,8 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 
 const Container = styled.header`
+  display: flex;
+  justify-content: flex-start;
   background-color: black;
   color: white;
   font-size: 24px;
@@ -14,22 +16,41 @@ const Container = styled.header`
   padding-top: 2px;
   padding-bottom: 2px;
   margin-bottom: 25px;
-  a {
-    text-decoration: none;
-  }
 `
 const Headline = styled.span`
   background-color: white;
   color: black;
+  margin-bottom: auto;
   padding-left: 5px;
   padding-right: 5px;
   margin-right: 15px;
+  a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+  }
+`
+const BlogLink = styled.span`
+  background-color: white;
+  color: black;
+  margin-left: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-top: auto;
+  a {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+  }
 `
 const Subline = styled.span`
   margin: 0;
   font-size: 16px;
+  display: inline-block;
+  margin-top: auto;
   padding-left: 5px;
   padding-right: 5px;
+
   @media (max-width: 768px) {
     display: inline-block;
   }
@@ -37,10 +58,13 @@ const Subline = styled.span`
 export default () => {
   return (
     <Container>
-      <Link to="/">
-        <Headline>grantler records</Headline>
-      </Link>
+      <Headline>
+        <Link to="/">grantler records</Link>
+      </Headline>
       <Subline>a home for direct, imperfect and honest music</Subline>
+      <BlogLink>
+        <Link to="/blog">blog</Link>
+      </BlogLink>
     </Container>
   )
 }

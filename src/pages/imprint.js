@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const SecondPage = () => (
   <Layout>
     <SEO title="imprint" />
-    <h1>Imprint</h1>
+    <h1>imprint</h1>
     grantler records <br></br>
     Thomas Geissl <br></br>
     Kapuzinerplatz 2 <br></br>
