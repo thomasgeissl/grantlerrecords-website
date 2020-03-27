@@ -46,17 +46,17 @@ export default () => (
         </Video>
         <Description>
           Aporia is the new album of Sufjan Stevens and his stepfather Lowell
-          Brams. It contains 21 ambient, instrumental tracks.
+          Brams. it contains 21 ambient, instrumental tracks.
         </Description>
         <Release>
-          It was released through their label{" "}
+          it was released through their label{" "}
           <a href="https://asthmatickitty.com/" target="_blank">
             Asthmatic Kitty
           </a>{" "}
           on March 24, 2020.
         </Release>
         <Links>
-          Enjoy it on{" "}
+          enjoy it on{" "}
           <a
             href="https://open.spotify.com/album/5gWWMy8wggZzv84wbLuQPT?si=hvVnC_wlSmONvdjscM2apA"
             target="_blank"
