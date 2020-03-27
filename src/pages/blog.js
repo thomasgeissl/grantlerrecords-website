@@ -3,7 +3,9 @@ import styled from "styled-components"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-const List = styled.ul``
+const List = styled.ul`
+  padding-left: 0;
+`
 const Entry = styled.li`
   list-style-type: none;
   a {
