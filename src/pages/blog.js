@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-
+import Meta from "../components/Meta"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 const List = styled.ul`
@@ -18,14 +18,28 @@ const Entry = styled.li`
 const Video = styled.section`
   margin-top: 15px;
   margin-bottom: 15px;
+  @media (min-width: 768px) {
+    width: 33%;
+  }
 `
+const VideoWrapper = styled.div`
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 0;
+  height: 0;
+  overflow: hidden;
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+`
+
 const Description = styled.section``
 const Links = styled.section``
 const Release = styled.section``
-const Meta = styled.div`
-  font-style: italic;
-  font-size: 0.8em;
-`
 export default () => (
   <Layout>
     <SEO title="blog" />
@@ -35,14 +49,14 @@ export default () => (
         <h2>Sufjan Stevens and Lowell Brams - Aporia</h2>
         <Meta>2020/03/27</Meta>
         <Video>
-          <iframe
-            width="560"
-            height="315"
-            src="https://www.youtube-nocookie.com/embed/Ilaif-4Q3zw"
-            frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowFullscreen
-          ></iframe>
+          <VideoWrapper>
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/Ilaif-4Q3zw"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullscreen
+            ></iframe>
+          </VideoWrapper>
         </Video>
         <Description>
           Aporia is the new album of Sufjan Stevens and his stepfather Lowell

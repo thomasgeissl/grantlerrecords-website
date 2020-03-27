@@ -3,6 +3,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import styled from "styled-components"
 
+import Meta from "../components/Meta"
+
 import Image from "../components/image"
 
 const ImageWrapper = styled.div`
@@ -42,10 +44,6 @@ const Blog = styled.ul`
       margin-top: 5px;
     }
   }
-`
-const Meta = styled.div`
-  font-style: italic;
-  font-size: 0.8em;
 `
 
 const IndexPage = () => (
