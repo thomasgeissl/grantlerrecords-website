@@ -51,8 +51,8 @@ const Subline = styled.span`
   padding-left: 5px;
   padding-right: 5px;
 
-  @media (max-width: 768px) {
-    display: inline-block;
+  @media (max-width: 576px) {
+    display: none;
   }
 `
 export default () => {
