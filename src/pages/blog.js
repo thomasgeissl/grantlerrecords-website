@@ -7,12 +7,16 @@ const List = styled.ul`
   padding-left: 0;
 `
 const Entry = styled.li`
+  text-align: right;
   list-style-type: none;
   a {
     color: black;
   }
   h2 {
     margin-bottom: 5px;
+  }
+  &:nth-child(2) {
+    text-align: left;
   }
 `
 const Video = styled.section`
@@ -36,6 +40,12 @@ const VideoWrapper = styled.div`
     height: 100%;
   }
 `
+const Image = styled.img`
+  width: 100%;
+  @media (min-width: 768px) {
+    width: 33%;
+  }
+`
 
 const Description = styled.section``
 const Links = styled.section``
@@ -45,6 +55,47 @@ export default () => (
     <SEO title="blog" />
     <h1>blog</h1>
     <List>
+      <Entry>
+        <h2>Nils Frahm - Entry</h2>
+        <Meta>2020/03/29</Meta>
+        <Image src="https://etr-media.s3-eu-west-1.amazonaws.com/1800/cover.jpg"></Image>
+        <Description>
+          the eight-track lp was originally written as the soundtrack to a short
+          film he shot with his friend Benoit Toulemonde.
+        </Description>
+        <Release>
+          empty was released on{" "}
+          <a href="https://www.erasedtapes.com/" target="_blank">
+            Erased Types
+          </a>{" "}
+          on{" "}
+          <a href="https://www.pianoday.org/" target="_blank">
+            piano day
+          </a>
+          , March 28, 2020.
+        </Release>
+        <Links>
+          enjoy it on{" "}
+          <a
+            href="https://open.spotify.com/track/3wUYmc0vGveoD4ltYeOdZt?si=t0-v45piRRGe8TfYdwRpqw"
+            target="_blank"
+          >
+            spotify
+          </a>
+          ,{" "}
+          <a href="https://www.youtube.com/watch?v=8coAT22gZK8" target="_blank">
+            youtube
+          </a>{" "}
+          or{" "}
+          <a
+            href="https://www.erasedtapes.com/release/eratp134-nils-frahm-empty"
+            target="_blank"
+          >
+            Erased Tapes
+          </a>
+          .
+        </Links>
+      </Entry>
       <Entry>
         <h2>Sufjan Stevens and Lowell Brams - Aporia</h2>
         <Meta>2020/03/27</Meta>
