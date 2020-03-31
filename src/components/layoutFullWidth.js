@@ -16,6 +16,9 @@ const Content = styled.div`
   flex: 1;
   padding-left: 50px;
   padding-right: 50px;
+  a {
+    color: black;
+  }
 `
 
 const Layout = ({ children }) => {

@@ -15,6 +15,11 @@ const Entry = styled.li`
   h2 {
     margin-bottom: 5px;
   }
+  &:nth-child(odd) {
+    > * {
+      margin-left: auto;
+    }
+  }
   &:nth-child(2) {
     text-align: left;
   }
@@ -47,7 +52,9 @@ const Image = styled.img`
   }
 `
 
-const Description = styled.section``
+const Description = styled.section`
+  width: 80%;
+`
 const Links = styled.section``
 const Release = styled.section``
 export default () => (
@@ -55,6 +62,48 @@ export default () => (
     <SEO title="blog" />
     <h1>blog</h1>
     <List>
+      <Entry>
+        <h2>Muzz - Broken Tambourine</h2>
+        <Meta>2020/03/31</Meta>
+        <Video className="video">
+          <VideoWrapper>
+            <iframe
+              src="https://www.youtube-nocookie.com/embed/z9XmawB0t7Q"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowFullscreen
+            ></iframe>
+          </VideoWrapper>
+        </Video>
+        <Description>
+          Muzz was formed by Paul Banks (Interpol), Matt Barrick (the Walkmen,
+          Fleet Foxes) and Josh Kaufman (Bonny Light Horseman, Day of the Dead).
+          after dropping their first track Bad Feeling on SoundCloud earlier
+          this month, the band now officially released their first single.
+        </Description>
+        <Release>
+          Broken Tambourine was released on{" "}
+          <a href="https://www.matadorrecords.com/" target="_blank">
+            Matador Records
+          </a>{" "}
+          on March 24, 2020.
+        </Release>
+        <Links>
+          enjoy it on{" "}
+          <a
+            href="https://open.spotify.com/album/6hMruWCioe2Hhr3RJne3zd?si=hayZdWhCQjeZ9a_B5fD7Ag"
+            target="_blank"
+          >
+            spotify
+          </a>{" "}
+          or{" "}
+          <a href="https://www.youtube.com/watch?v=z9XmawB0t7Q" target="_blank">
+            youtube
+          </a>
+          .
+        </Links>
+      </Entry>
+
       <Entry>
         <h2>Nils Frahm - Entry</h2>
         <Meta>2020/03/29</Meta>
@@ -99,7 +148,7 @@ export default () => (
       <Entry>
         <h2>Sufjan Stevens and Lowell Brams - Aporia</h2>
         <Meta>2020/03/27</Meta>
-        <Video>
+        <Video className="video">
           <VideoWrapper>
             <iframe
               src="https://www.youtube-nocookie.com/embed/Ilaif-4Q3zw"

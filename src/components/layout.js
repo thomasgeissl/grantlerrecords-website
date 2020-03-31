@@ -26,6 +26,9 @@ const Content = styled.div`
   padding-right: 50px;
   max-width: 1024px;
   margin: auto;
+  a {
+    color: black;
+  }
 `
 
 const Layout = ({ children }) => {

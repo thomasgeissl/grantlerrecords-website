@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import Layout from "../components/layoutFullWidth"
 import SEO from "../components/seo"
 import styled from "styled-components"
@@ -6,6 +7,7 @@ import styled from "styled-components"
 import Meta from "../components/Meta"
 
 import Image from "../components/image"
+import About from "../components/about"
 
 const ImageWrapper = styled.div`
   @media (min-width: 768px) {
@@ -18,10 +20,6 @@ const ImageWrapper = styled.div`
   }
   margin-top: 15px;
   margin-bottom: 15px;
-`
-
-const About = styled.div`
-  text-align: right;
 `
 
 const Contact = styled.div``
@@ -46,53 +44,11 @@ const Blog = styled.ul`
   }
 `
 
-const IndexPage = () => (
+export default () => (
   <Layout>
     <SEO title="home" />
-    <About>
-      <p>
-        hello folks,<br></br>
-        we are a munich based record label. founded in 2020.<br></br>
-        our goal is to support music that touches us and hopefully many others
-        as well.
-      </p>
-      {/* <p>
-        as a dj collective we spin vinyls in the bars of munich. <br></br>we
-        play a mix of post punk, shoegaze, dreampop, new wave and everything in
-        between. <br></br>flyers are posted regularly on our{" "}
-        <a
-          target="_blank"
-          href="https://www.instagram.com/grantlersoundsystem/"
-        >
-          instagram page
-        </a>{" "}
-        and here is a little teaser{" "}
-        <a
-          target="_blank"
-          href="https://open.spotify.com/playlist/5bQtfOpbN2hoAmS1groTED?si=waVYeq3FRlSbnuxjY1MpPw"
-        >
-          spotify playlist.
-        </a>
-      </p> */}
-    </About>
-    {/* <ImageWrapper>
-      <Image></Image>
-    </ImageWrapper> */}
+    <About></About>
     <Blog>
-      {/* <li>
-        Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-        molestie consequat.
-        <br></br>
-        <iframe
-          width="380"
-          height="157.5"
-          src="https://www.youtube.com/embed/_AWIqXzvX-U"
-          frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </li> */}
-
       <li>
         <h2>coming soon</h2>
         <Meta>2020/03/22</Meta>
@@ -111,5 +67,3 @@ const IndexPage = () => (
     </Contact>
   </Layout>
 )
-
-export default IndexPage
