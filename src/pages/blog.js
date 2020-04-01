@@ -8,7 +8,6 @@ const List = styled.ul`
   padding-left: 0;
 `
 const Entry = styled.li`
-  text-align: right;
   list-style-type: none;
   a {
     color: black;
@@ -21,8 +20,11 @@ const Entry = styled.li`
       margin-left: auto;
     }
   }
-  &:nth-child(2) {
+  &:nth-child(even) {
     text-align: left;
+  }
+  &:nth-child(odd) {
+    text-align: right;
   }
 `
 const Video = styled.section`
@@ -115,6 +117,7 @@ export default () => {
               )}
               {image && <Image src={image}></Image>}
               <Description
+                className="description"
                 dangerouslySetInnerHTML={{ __html: node.description }}
               ></Description>
               <Release
