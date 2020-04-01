@@ -6,6 +6,7 @@ module.exports = {
     author: `grantler records`,
   },
   plugins: [
+    `gatsby-plugin-feed`,
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
