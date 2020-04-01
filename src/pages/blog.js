@@ -1,4 +1,5 @@
 import React from "react"
+import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 import Meta from "../components/Meta"
 import Layout from "../components/layout"
@@ -46,6 +47,8 @@ const VideoWrapper = styled.div`
   }
 `
 const Image = styled.img`
+  margin-top: 15px;
+  margin-bottom: 15px;
   width: 100%;
   @media (min-width: 768px) {
     width: 33%;
@@ -57,133 +60,87 @@ const Description = styled.section`
 `
 const Links = styled.section``
 const Release = styled.section``
-export default () => (
-  <Layout>
-    <SEO title="blog" />
-    <h1>blog</h1>
-    <List>
-      <Entry>
-        <h2>Muzz - Broken Tambourine</h2>
-        <Meta>2020/03/31</Meta>
-        <Video className="video">
-          <VideoWrapper>
-            <iframe
-              src="https://www.youtube-nocookie.com/embed/z9XmawB0t7Q"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullscreen
-            ></iframe>
-          </VideoWrapper>
-        </Video>
-        <Description>
-          Muzz was formed by Paul Banks (Interpol), Matt Barrick (the Walkmen,
-          Fleet Foxes) and Josh Kaufman (Bonny Light Horseman, Day of the Dead).
-          after dropping their first track Bad Feeling on SoundCloud earlier
-          this month, the band now officially released their first single.
-        </Description>
-        <Release>
-          Broken Tambourine was released on{" "}
-          <a href="https://www.matadorrecords.com/" target="_blank">
-            Matador Records
-          </a>{" "}
-          on March 24, 2020.
-        </Release>
-        <Links>
-          enjoy it on{" "}
-          <a
-            href="https://open.spotify.com/album/6hMruWCioe2Hhr3RJne3zd?si=hayZdWhCQjeZ9a_B5fD7Ag"
-            target="_blank"
-          >
-            spotify
-          </a>{" "}
-          or{" "}
-          <a href="https://www.youtube.com/watch?v=z9XmawB0t7Q" target="_blank">
-            youtube
-          </a>
-          .
-        </Links>
-      </Entry>
 
-      <Entry>
-        <h2>Nils Frahm - Entry</h2>
-        <Meta>2020/03/29</Meta>
-        <Image src="https://etr-media.s3-eu-west-1.amazonaws.com/1800/cover.jpg"></Image>
-        <Description>
-          the eight-track lp was originally written as the soundtrack to a short
-          film he shot with his friend Benoit Toulemonde.
-        </Description>
-        <Release>
-          empty was released on{" "}
-          <a href="https://www.erasedtapes.com/" target="_blank">
-            Erased Types
-          </a>{" "}
-          on{" "}
-          <a href="https://www.pianoday.org/" target="_blank">
-            piano day
-          </a>
-          , March 28, 2020.
-        </Release>
-        <Links>
-          enjoy it on{" "}
-          <a
-            href="https://open.spotify.com/track/3wUYmc0vGveoD4ltYeOdZt?si=t0-v45piRRGe8TfYdwRpqw"
-            target="_blank"
-          >
-            spotify
-          </a>
-          ,{" "}
-          <a href="https://www.youtube.com/watch?v=8coAT22gZK8" target="_blank">
+export default () => {
+  const data = useStaticQuery(graphql`
+    query HeadingQuery {
+      site {
+        siteMetadata {
+          title
+        }
+      }
+      allBlogJson {
+        edges {
+          node {
+            id
+            title
+            date
             youtube
-          </a>{" "}
-          or{" "}
-          <a
-            href="https://www.erasedtapes.com/release/eratp134-nils-frahm-empty"
-            target="_blank"
-          >
-            Erased Tapes
-          </a>
-          .
-        </Links>
-      </Entry>
-      <Entry>
-        <h2>Sufjan Stevens and Lowell Brams - Aporia</h2>
-        <Meta>2020/03/27</Meta>
-        <Video className="video">
-          <VideoWrapper>
-            <iframe
-              src="https://www.youtube-nocookie.com/embed/Ilaif-4Q3zw"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullscreen
-            ></iframe>
-          </VideoWrapper>
-        </Video>
-        <Description>
-          Aporia is the new album of Sufjan Stevens and his stepfather Lowell
-          Brams. it contains 21 ambient, instrumental tracks.
-        </Description>
-        <Release>
-          it was released through their label{" "}
-          <a href="https://asthmatickitty.com/" target="_blank">
-            Asthmatic Kitty
-          </a>{" "}
-          on March 24, 2020.
-        </Release>
-        <Links>
-          enjoy it on{" "}
-          <a
-            href="https://open.spotify.com/album/5gWWMy8wggZzv84wbLuQPT?si=hvVnC_wlSmONvdjscM2apA"
-            target="_blank"
-          >
-            spotify
-          </a>{" "}
-          or{" "}
-          <a href="https://www.youtube.com/watch?v=YIW4yufMVqQ" target="_blank">
-            youtube
-          </a>
-          .
-        </Links>
-      </Entry>
-    </List>
-  </Layout>
-)
+            image
+            description
+            release
+            links {
+              text
+              url
+            }
+          }
+        }
+      }
+    }
+  `)
+  return (
+    <Layout>
+      <SEO title="blog" />
+      <h1>blog</h1>
+      <List>
+        {data.allBlogJson.edges.map(post => {
+          const { node } = post
+          const { title, date, youtube, image, links } = node
+          console.log(links)
+          return (
+            <Entry>
+              <h2>{title}</h2>
+              <Meta>{date} </Meta>
+              {youtube && (
+                <Video className="video">
+                  <VideoWrapper>
+                    <iframe
+                      src={"https://www.youtube-nocookie.com/embed/" + youtube}
+                      frameBorder="0"
+                      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                      allowFullscreen
+                    ></iframe>
+                  </VideoWrapper>
+                </Video>
+              )}
+              {image && <Image src={image}></Image>}
+              <Description
+                dangerouslySetInnerHTML={{ __html: node.description }}
+              ></Description>
+              <Release
+                dangerouslySetInnerHTML={{ __html: node.release }}
+              ></Release>
+              <Links>
+                Enjoy it on{" "}
+                {links.map((link, index) => {
+                  const { text, url } = link
+
+                  return (
+                    <span>
+                      <a href={url} target="_blank">
+                        {text}
+                      </a>
+                      {index < links.length - 2 && <>, </>}
+                      {index === links.length - 2 && <> or </>}
+                    </span>
+                  )
+                })}
+                .
+              </Links>
+            </Entry>
+          )
+        })}
+      </List>
+    </Layout>
+  )
+}
