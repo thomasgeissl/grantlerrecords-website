@@ -1,0 +1,7 @@
+os:
+  - linux
+
+language: js
+sudo: required
+
+script: ./scripts/$TRAVIS_OS_NAME/install.sh
