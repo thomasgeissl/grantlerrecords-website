@@ -1,10 +1,14 @@
 os:
   - linux
 
-language: js
-sudo: required
 language: node_js
+before_script:
+  - npm install -g gatsby
 node_js:
-  - 12
-
-script: ./scripts/$TRAVIS_OS_NAME/install.sh
+  - "12"
+deploy:
+  provider: script
+  script: yarn install && yarn travisdeploy
+  skip_cleanup: true
+  on:
+    branch: master
