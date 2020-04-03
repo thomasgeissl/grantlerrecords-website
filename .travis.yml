@@ -3,5 +3,8 @@ os:
 
 language: js
 sudo: required
+language: node_js
+node_js:
+  - 12
 
 script: ./scripts/$TRAVIS_OS_NAME/install.sh
