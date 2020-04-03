@@ -3,7 +3,7 @@ os:
 
 language: node_js
 before_script:
-  - npm install -g gatsby
+  - yarn global add gatsby
 node_js:
   - "12"
 deploy:
