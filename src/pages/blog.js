@@ -94,6 +94,16 @@ export default () => {
     <Layout>
       <SEO title="blog" />
       <h1>blog</h1>
+      <p>
+        this blog is accompanied by a{" "}
+        <a
+          href="https://open.spotify.com/playlist/4gcAPvO0XO126hdW1OIG1O?si=7WwYh8iYTJmI3RrfjFYF5w"
+          target="_blank"
+        >
+          spotify playlist
+        </a>
+        .
+      </p>
       <List>
         {data.allBlogJson.edges.map(post => {
           const { node } = post
