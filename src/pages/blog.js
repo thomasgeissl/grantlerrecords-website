@@ -108,7 +108,6 @@ export default () => {
         {data.allBlogJson.edges.map(post => {
           const { node } = post
           const { title, date, youtube, image, links } = node
-          console.log(links)
           return (
             <Entry>
               <h2>{title}</h2>
