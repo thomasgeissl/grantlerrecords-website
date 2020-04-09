@@ -6,6 +6,62 @@ module.exports = {
     author: `grantler records`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allBlogJson } }) => {
+              return allBlogJson.edges.map(edge => {
+                return Object.assign(
+                  {},
+                  {
+                    title: edge.node.title,
+                    description: edge.node.description,
+                    date: edge.node.date,
+                    url: "http://grantlerrecords.de/blog",
+                    guid: "http://grantlerrecords.de/blog",
+                  }
+                )
+              })
+            },
+            query: `
+              {
+                allBlogJson {
+                  edges {
+                    node {
+                      id
+                      title
+                      date
+                      youtube
+                      image
+                      description
+                      release
+                      links {
+                        text
+                        url
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: "/rss.xml",
+            title: "grantler records rss feed",
+          },
+        ],
+      },
+    },
     `gatsby-transformer-json`,
     {
       resolve: `gatsby-source-filesystem`,
