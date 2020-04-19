@@ -16,7 +16,8 @@ export default () => {
         as well.
       </p>
       <p>
-        we are very much into vinyls and <Link to="/soundsystem">djing</Link>.
+        we are very much into physical media such as vinyl and tape. we also
+        enjoy <Link to="/soundsystem">djing</Link>.
       </p>
     </Container>
   )
