@@ -1,6 +1,8 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
+import RssFeedIcon from "@material-ui/icons/RssFeed"
+
 import Meta from "../components/Meta"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -93,12 +95,18 @@ export default () => {
   return (
     <Layout>
       <SEO title="blog" />
-      <h1>blog</h1>
+      <h1>
+        blog{" "}
+        <a href="../rss.xml" target="_blank" rel="noopener noreferrer">
+          <RssFeedIcon></RssFeedIcon>
+        </a>
+      </h1>
       <p>
         this blog is accompanied by a{" "}
         <a
           href="https://open.spotify.com/playlist/4gcAPvO0XO126hdW1OIG1O?si=7WwYh8iYTJmI3RrfjFYF5w"
           target="_blank"
+          rel="noopener noreferrer"
         >
           spotify playlist
         </a>
@@ -116,10 +124,11 @@ export default () => {
                 <Video className="video">
                   <VideoWrapper>
                     <iframe
+                      title="youtube"
                       src={"https://www.youtube-nocookie.com/embed/" + youtube}
                       frameBorder="0"
                       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                      allowFullscreen
+                      allowFullScreen
                     ></iframe>
                   </VideoWrapper>
                 </Video>
@@ -139,7 +148,7 @@ export default () => {
 
                   return (
                     <span>
-                      <a href={url} target="_blank">
+                      <a href={url} target="_blank" rel="noopener noreferrer">
                         {text}
                       </a>
                       {index < links.length - 2 && <>, </>}
