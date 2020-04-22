@@ -97,7 +97,11 @@ export default () => {
       <SEO title="blog" />
       <h1>
         blog{" "}
-        <a href="../rss.xml" target="_blank" rel="noopener noreferrer">
+        <a
+          href="http://grantlerrecords.de/rss.xml"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <RssFeedIcon></RssFeedIcon>
         </a>
       </h1>
