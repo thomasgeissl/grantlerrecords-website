@@ -27,6 +27,7 @@ module.exports = {
                   {},
                   {
                     title: edge.node.title,
+                    author: "grantler records",
                     description: edge.node.description,
                     date: edge.node.date,
                     url: "http://grantlerrecords.de/blog",
