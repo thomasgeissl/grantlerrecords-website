@@ -122,7 +122,7 @@ export default () => {
           const { title, date, youtube, image, links } = node
           return (
             <Entry>
-              <h2>{title}</h2>
+              <h2 id={encodeURI(`${date}_${title}`)}>{title}</h2>
               <Meta>{date} </Meta>
               {youtube && (
                 <Video className="video">
