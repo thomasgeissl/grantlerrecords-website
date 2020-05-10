@@ -42,8 +42,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 0",
-    "deploy": "gatsby build && gh-pages -d public",
-    "travisdeploy": "gatsby build && gh-pages -d public -r https://$GH_TOKEN@github.com/thomasgeissl/grantlerrecords-website.git"
+    "deploy": "gatsby build && cp CNAME public && gh-pages -d public",
+    "travisdeploy": "gatsby build && cp CNAME public && gh-pages -d public -r https://$GH_TOKEN@github.com/thomasgeissl/grantlerrecords-website.git"
   },
   "repository": {
     "type": "git",
