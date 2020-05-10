@@ -30,7 +30,7 @@ module.exports = {
                     author: "grantler records",
                     description: edge.node.description,
                     date: edge.node.date,
-                    url: "http://grantlerrecords.de/blog",
+                    url: "https://grantlerrecords.com/blog",
                     guid: encodeURI(`${edge.node.date}_${edge.node.title}`),
                   }
                 )
