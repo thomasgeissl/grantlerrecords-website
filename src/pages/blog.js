@@ -28,6 +28,8 @@ const Entry = styled.li`
   &:nth-child(odd) {
     text-align: right;
   }
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 `
 const Video = styled.section`
   margin-top: 15px;
