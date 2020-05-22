@@ -70,15 +70,61 @@ const Description = styled.section`
 const Links = styled.section``
 const Release = styled.section``
 
-const Controls = styled.div`
+const ControlsContainer = styled.div`
   text-align: right;
   div {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    * {
+      margin-right: 12px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
   }
   margin-top: 32px;
 `
+const Controls = ({
+  isFirst,
+  isLast,
+  firstPage,
+  lastPage,
+  numPages,
+  currentPage,
+  prevPage,
+  nextPage,
+}) => {
+  return (
+    <ControlsContainer>
+      <div>
+        {!isFirst && (
+          <Link to={firstPage} rel="stop">
+            <StopIcon></StopIcon>
+          </Link>
+        )}
+        {!isFirst && (
+          <Link to={prevPage} rel="prev">
+            <SkipPreviousIcon></SkipPreviousIcon>
+          </Link>
+        )}
+        <span>{currentPage}</span>
+        <span>/</span>{" "}
+        {!isLast && (
+          <Link to={lastPage} rel="next">
+            {numPages}
+          </Link>
+        )}
+        {isLast && <>{numPages}</>}
+        {!isLast && (
+          <Link to={nextPage} rel="next">
+            <SkipNextIcon></SkipNextIcon>
+          </Link>
+        )}
+      </div>
+    </ControlsContainer>
+  )
+}
 
 export default class Blog extends React.Component {
   render() {
@@ -115,6 +161,16 @@ export default class Blog extends React.Component {
           </a>
           .
         </p>
+        <Controls
+          isFirst={isFirst}
+          isLast={isLast}
+          firstPage={firstPage}
+          lastPage={lastPage}
+          prevPage={prevPage}
+          nextPage={nextPage}
+          currentPage={currentPage}
+          numPages={numPages}
+        ></Controls>
         <List>
           {data.allBlogJson.edges.map((post, index) => {
             const { node } = post
@@ -167,32 +223,16 @@ export default class Blog extends React.Component {
             )
           })}
         </List>
-        <Controls>
-          <div>
-            {!isFirst && (
-              <Link to={firstPage} rel="stop">
-                <StopIcon></StopIcon>
-              </Link>
-            )}
-            {!isFirst && (
-              <Link to={prevPage} rel="prev">
-                <SkipPreviousIcon></SkipPreviousIcon>
-              </Link>
-            )}
-            {currentPage} /{" "}
-            {!isLast && (
-              <Link to={lastPage} rel="next">
-                {numPages}
-              </Link>
-            )}
-            {isLast && <>{numPages}</>}
-            {!isLast && (
-              <Link to={nextPage} rel="next">
-                <SkipNextIcon></SkipNextIcon>
-              </Link>
-            )}
-          </div>
-        </Controls>
+        <Controls
+          isFirst={isFirst}
+          isLast={isLast}
+          firstPage={firstPage}
+          lastPage={lastPage}
+          prevPage={prevPage}
+          nextPage={nextPage}
+          currentPage={currentPage}
+          numPages={numPages}
+        ></Controls>
       </Layout>
     )
   }
