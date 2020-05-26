@@ -5,7 +5,7 @@ language: node_js
 before_script:
   - yarn global add gatsby
 node_js:
-  - "12"
+  - "12.16.3"
 deploy:
   provider: script
   script: yarn install && yarn travisdeploy

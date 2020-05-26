@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: "/grantlerrecords-website",
   siteMetadata: {
     title: `grantler records`,
-    description: `label, soundsystem and blog - a home for direct, imperfect and honest music. we are very much into diy.`,
+    description: `a home for direct, imperfect and honest music.`,
     keywords: ["grantler", "music", "label", "diy", "blog", "soundsystem"],
     author: `grantler records`,
   },
