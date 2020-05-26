@@ -50,7 +50,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:description`,
-          content: site.siteMetadata.description,
+          content: metaDescription
         },
         {
           property: `og:type`,
@@ -70,7 +70,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:description`,
-          content: site.siteMetadata.description,
+          content: metaDescription,
         },
       ].concat(meta)}
     />
