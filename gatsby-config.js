@@ -2,7 +2,7 @@ module.exports = {
   pathPrefix: "/grantlerrecords-website",
   siteMetadata: {
     title: `grantler records`,
-    description: ``,
+    description: `a home for direct, imperfect and honest music`,
     author: `grantler records`,
   },
   plugins: [
