@@ -41,11 +41,11 @@ export default () => {
   `)
   return (
     <Container>
-      {data.allNewsJson.edges.map(post => {
+      {data.allNewsJson.edges.map((post, index) => {
         const { node } = post
         const { title, date, description } = node
         return (
-          <li>
+          <li key={index}>
             <h2>{title}</h2>
             <Meta>{date}</Meta>
             <p>{description}</p>
