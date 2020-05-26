@@ -3,6 +3,7 @@ module.exports = {
   siteMetadata: {
     title: `grantler records`,
     description: `a home for direct, imperfect and honest music`,
+    keywords: ["grantler", "music", "label", "diy", "blog", "soundsystem"],
     author: `grantler records`,
   },
   plugins: [
