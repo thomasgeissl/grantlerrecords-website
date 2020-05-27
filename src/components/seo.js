@@ -61,10 +61,10 @@ function SEO({ description, lang, meta, title, image }) {
           property: `og:type`,
           content: `website`,
         },
-        // {
-        //   property: `og:image`,
-        //   content: metaImage,
-        // },
+        {
+          property: `og:image`,
+          content: metaImage,
+        },
         {
           name: `twitter:card`,
           content: `summary`,
@@ -81,10 +81,10 @@ function SEO({ description, lang, meta, title, image }) {
           name: `twitter:description`,
           content: metaDescription,
         },
-        // {
-        //   name: `twitter:image`,
-        //   content: metaImage,
-        // },
+        {
+          name: `twitter:image`,
+          content: metaImage,
+        },
       ].concat(meta)}
     />
   )
