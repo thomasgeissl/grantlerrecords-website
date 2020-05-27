@@ -20,15 +20,7 @@ function SEO({ description, lang, meta, title, image }) {
             description
             keywords
             author
-          }
-        }
-        logo: file(relativePath: { eq: "logo.png" }) {
-          childImageSharp {
-            # Specify a fixed image and fragment.
-            # The default width is 400 pixels
-            fixed {
-              ...GatsbyImageSharpFixed
-            }
+            image
           }
         }
       }
@@ -38,7 +30,7 @@ function SEO({ description, lang, meta, title, image }) {
 
 
   const metaDescription = description || site.siteMetadata.description
-  const metaImage = data.logo.childImageSharp.fixed
+  const metaImage = image || site.siteMetadata.image
 
 
   return (
@@ -69,10 +61,10 @@ function SEO({ description, lang, meta, title, image }) {
           property: `og:type`,
           content: `website`,
         },
-        {
-          property: `og:image`,
-          content: metaImage,
-        },
+        // {
+        //   property: `og:image`,
+        //   content: metaImage,
+        // },
         {
           name: `twitter:card`,
           content: `summary`,
@@ -89,10 +81,10 @@ function SEO({ description, lang, meta, title, image }) {
           name: `twitter:description`,
           content: metaDescription,
         },
-        {
-          name: `twitter:image`,
-          content: metaImage,
-        },
+        // {
+        //   name: `twitter:image`,
+        //   content: metaImage,
+        // },
       ].concat(meta)}
     />
   )
