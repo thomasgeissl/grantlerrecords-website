@@ -6,6 +6,8 @@ import SkipPreviousIcon from "@material-ui/icons/SkipPrevious"
 import SkipNextIcon from "@material-ui/icons/SkipNext"
 import StopIcon from "@material-ui/icons/Stop"
 
+import { createSlug } from "../utils"
+
 import Meta from "../components/Meta"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -177,7 +179,9 @@ export default class Blog extends React.Component {
             const { title, date, youtube, image, links } = node
             return (
               <Entry key={index}>
-                <h2 id={encodeURI(`${date}_${title}`)}>{title}</h2>
+                <Link to={`/blog/post/${createSlug(title)}`} rel="stop">
+                  <h2 id={encodeURI(`${date}_${title}`)}>{title}</h2>
+                </Link>
                 <Meta>{date} </Meta>
                 {youtube && (
                   <Video className="video">

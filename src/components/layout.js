@@ -24,11 +24,13 @@ const Content = styled.div`
   flex: 1;
   padding-left: 50px;
   padding-right: 50px;
-  max-width: 1024px;
-  margin: auto;
+  main {
+    max-width: 1024px;
+    margin: auto;
   a {
     color: black;
   }
+}
 `
 
 const Layout = ({ children }) => {
