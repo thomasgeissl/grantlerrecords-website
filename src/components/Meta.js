@@ -9,7 +9,7 @@ const Container = styled.div`
 export default ({ date, author }) => {
   return (
     <Container>
-      {author && author.name && <><a href={author.url} target="_blank" rel="noopener noreferrer">{author.name}</a> - </>} {date}
+      {author && author.name && author.name !== "" && <><a href={author.url} target="_blank" rel="noopener noreferrer">{author.name}</a> - </>} {date}
     </Container>
   )
 }

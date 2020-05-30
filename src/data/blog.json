@@ -1,5 +1,10 @@
 [
   {
+    "type": "release",
+    "author": {
+      "name": "",
+      "url": ""
+    },
     "title": "Deerhoof - Future Teenage Cave Artists",
     "date": "2020/05/29",
     "youtube": "-oCsHmYNrXE",
@@ -14,7 +19,8 @@
         "text": "bandcamp",
         "url": "https://deerhoof.bandcamp.com/album/future-teenage-cave-artists"
       }
-    ]
+    ],
+    "md": ""
   },
   {
     "title": "Cigarettes After Sex - You're All I Want",
