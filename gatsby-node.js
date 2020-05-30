@@ -17,16 +17,32 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
           edges {
             node {
               id
+              type
               title
+              author {
+                name
+                url
+              }
               date
               youtube
               image
               description
               release
+              md
               links {
                 text
                 url
               }
+            }
+          }
+        }
+        articles: allMarkdownRemark {
+          edges {
+            node {
+              frontmatter {
+                id
+              }
+              html
             }
           }
         }
@@ -40,6 +56,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   // ...
   // Create blog-list pages
   const posts = result.data.allBlogJson.edges
+  const articles = result.data.articles.edges
   const postsPerPage = 10
   const numPages = Math.ceil(posts.length / postsPerPage)
   Array.from({ length: numPages }).forEach((_, i) => {
@@ -58,6 +75,16 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   for (let i = 0; i < posts.length; i++) {
     const previousPath = i !== 0 ? `/blog/post/${createSlug(posts[i - 1].node.title)}` : ""
     const post = posts[i]
+    let md = null
+    if (post.node.md) {
+      articles.forEach(article => {
+        console.log(article.node.frontmatter.id)
+        if (article.node.frontmatter.id == post.node.md) {
+          md = article.node
+        }
+        // console.log(article.node.frontmatter.html)
+      })
+    }
     const nextPath = i < posts.length - 1 ? `/blog/post/${createSlug(posts[i + 1].node.title)}` : ""
     createPage({
       path: `/blog/post/${createSlug(post.node.title)}`,
@@ -67,7 +94,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         nextPath,
         currentPost: i,
         numPosts: posts.length,
-        data: post
+        data: post,
+        mdData: post.node.md ? md : null
       },
     })
   }
