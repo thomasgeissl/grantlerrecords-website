@@ -1,5 +1,22 @@
 [
   {
+    "title": "Christian Lee Hutson - Beginners",
+    "date": "2020/05/30",
+    "youtube": "SctvheyAUQk",
+    "description": "LA based singer songwriter Christian Lee Hutson released his new album Beginners. it contains ten honest and intimate tracks. it was produced by Phoebe Bridgers (Boygenius and Better Oblivion Community Center).",
+    "release": "Beginners was released on <a href=\"http://anti.com//\" target=\"_blank\">ANTI records</a> on May 29, 2020.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/5PLt7H7bUEQeKPdWhWf4SY?si=St-i5vCjS8qzWwUrCe_m2Q"
+      },
+      {
+        "text": "youtube",
+        "url": "https://www.youtube.com/playlist?list=PLJ7QPuvv91JuhJTxlD0z5d9D6QFEvFx1Y"
+      }
+    ]
+  },
+  {
     "type": "release",
     "author": {
       "name": "",
