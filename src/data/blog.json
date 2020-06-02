@@ -1,5 +1,26 @@
 [
   {
+    "title": "Owen Pallett - Island",
+    "date": "2020/06/01",
+    "youtube": "L_Tvi4v_j0M",
+    "description": "Owen Pallett surprises with Island, his first studio album in 6 years. Island was recorded live at Abbey Road Studios with the London Contemporary Orchestra.",
+    "release": "Island was released on <a href=\"https://www.dominomusic.com\" target=\"_blank\">Domino</a> on May 22, 2020.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/07fRYHyHA0ptI3NvxmmCkv?si=wH7w6OEFR1m1eMK2JKkxnw"
+      },
+      {
+        "text": "youtube",
+        "url": "https://www.youtube.com/watch?v=ZQaGzM5eUJU&list=PLorkVpQyXhf9GTDrikd8f5dU_redy_r04"
+      },
+      {
+        "text": "somewhere else",
+        "url": "http://smarturl.it/OwenPallettIsland"
+      }
+    ]
+  },
+  {
     "title": "Nation of Language - Introduction, Presence",
     "date": "2020/05/31",
     "youtube": "HN0PGJneSUM",
