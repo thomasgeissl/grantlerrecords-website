@@ -145,8 +145,7 @@ export default ({ pageContext }) => {
                   .
                 </Links>}
       {author && author.name && author.name !== "" && <Author>written by our dear <a href={author.url} target="_blank" rel="noopener noreferrer">{author.name}</a>.</Author>}
-      {editor && editor.name && editor.name !== "" && <Editor>edited by 
-                {editor.url && <a href={editor.url} target="_blank" rel="noopener noreferrer">{editor.name}</a>}
+      {editor && editor.name && editor.name !== "" && <Editor>edited by {editor.url && <a href={editor.url} target="_blank" rel="noopener noreferrer">{editor.name}</a>}
                 {!editor.url && <>{editor.name}</>}
                 .
                 </Editor>
