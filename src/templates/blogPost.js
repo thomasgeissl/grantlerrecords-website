@@ -81,6 +81,7 @@ const Description = styled.section``
 const MdDescription = styled.section`text-align: left;`
 const Links = styled.section``
 const Release = styled.section``
+const Author = styled.section`margin-top: 24px;`
 
 export default ({ pageContext }) => {
     const { previousPath, nextPath, currentPost, numPosts } = pageContext
@@ -142,6 +143,7 @@ export default ({ pageContext }) => {
                     })}
                   .
                 </Links>}
+      {author && author.name && author.name !== "" && <Author>written by our dear <a href={author.url} target="_blank" rel="noopener noreferrer">{author.name}</a>.</Author>}
             </Entry>
         </Layout>
     )
