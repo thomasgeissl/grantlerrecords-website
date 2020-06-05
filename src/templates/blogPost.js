@@ -82,11 +82,12 @@ const MdDescription = styled.section`text-align: left;`
 const Links = styled.section``
 const Release = styled.section``
 const Author = styled.section`margin-top: 24px;`
+const Editor = styled.section``
 
 export default ({ pageContext }) => {
     const { previousPath, nextPath, currentPost, numPosts } = pageContext
     const { node } = pageContext.data
-    const { title, author, date, youtube, image, links } = node
+    const { title, author, editor, date, youtube, image, links } = node
     return (
         <Layout>
             <SEO title={title} />
@@ -144,6 +145,12 @@ export default ({ pageContext }) => {
                   .
                 </Links>}
       {author && author.name && author.name !== "" && <Author>written by our dear <a href={author.url} target="_blank" rel="noopener noreferrer">{author.name}</a>.</Author>}
+      {editor && editor.name && editor.name !== "" && <Editor>edited by 
+                {editor.url && <a href={editor.url} target="_blank" rel="noopener noreferrer">{editor.name}</a>}
+                {!editor.url && <>{editor.name}</>}
+                .
+                </Editor>
+          }
             </Entry>
         </Layout>
     )

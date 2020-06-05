@@ -23,6 +23,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
                 name
                 url
               }
+              editor {
+                name
+                url
+              }
               date
               youtube
               image
