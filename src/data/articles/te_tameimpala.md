@@ -3,7 +3,7 @@ id: "te_tameimpala"
 ---
 
 
-Tame lmpala, die gelungene Neo-Hippie-One-Man-Show-Band des Australiers Kevin Parker hat Anfang des Jahres ihr lang erwartetes viertes Studioalbum „The Slow Rush“ veröffentlicht. Es strahlt ein gleichermaßen melancholisches wie sonnendurchflutetes 70er Jahre Flair aus und ist von Yacht-Rock und elektrischen Supertramp-Pianos inspiriert. Es klingt nach einem besseren und stilvolleren L.A. vergangener Tage, das es so vermutlich nie gegeben hat. Aber auch Parker selbst hat seiner Sehnsucht danach inzwischen nachgegeben und ist in die Hollywood Hills gezogen.
+Tame lmpala, die gelungene Neo-Hippie-One-Man-Show-Band des Australiers Kevin Parker, hat Anfang des Jahres ihr lang erwartetes viertes Studioalbum „The Slow Rush“ veröffentlicht. Es strahlt ein gleichermaßen melancholisches wie sonnendurchflutetes 70er Jahre Flair aus und ist von Yacht-Rock und elektrischen Supertramp-Pianos inspiriert. Es klingt nach einem besseren und stilvolleren L.A. vergangener Tage, das es so vermutlich nie gegeben hat. Aber auch Parker selbst hat seiner Sehnsucht danach inzwischen nachgegeben und ist in die Hollywood Hills gezogen.
 
 Um uns die Wartezeit auf das Album zu verkürzen, haben Tame Impala bereits vergangenes Jahr drei Vorabsingles herausgebracht.
 Für die Veröffentlichung auf dem Album wurde die Single „Borderline“ allerdings noch einmal stark überarbeitet. Unter anderem fehlt Parkers mystischer Ruf zur Eröffnung des Songs und das Schlagzeug klingt deutlich härter. Eine weitere Lead-Melodie wurde hinzugefügt und eine sehr verspielte G-Funk Synthie-Baseline drängt sich jetzt in den Vordergrund. Und zum Schluss verändert Parker sogar noch seine ursprünglichen Lyrics und führt den Song statt zu einem kontemplativ offenen doch zu einem sehr versöhnlich-ausgeglichenen Ende.
@@ -39,4 +39,4 @@ Wenn er es jederzeit dem aktuellen Zeitgeist oder sich eventuell verändernden p
 Technische Veränderungen haben die Kunst immer beeinflusst. Und ich stehe auch dieser erst einmal offen und interessiert gegenüber.
 Aber für mich markiert Tame Impalas Veröffentlichung des Songs „Borderline“ doch einen Paradigmenwechsel, eben:
 „Das Kunstwerk im Zeitalter seiner ständigen Veränderbarkeit“.
-Wir dürfen also gespannt sein was da noch kommt.
+Wir dürfen also gespannt sein, was da noch kommt.
