@@ -1,5 +1,22 @@
 [
   {
+    "title": "Ruby Haunt - Tiebreaker",
+    "date": "2020/08/03",
+    "youtube": "G5NHwu-e0CQ",
+    "description": "LA based Ruby Haunt released a very intimate new album.",
+    "release": "Tiebreaker was self-released on JuLy 29, 2020.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/3WQgLapr64SGogwgxCcXCk?si=E4wsyD4KQ7ir7Acoss1CRQ"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://rubyhaunt.bandcamp.com/album/tiebreaker"
+      }
+    ]
+  },
+  {
     "title": "The Notwist - Ship",
     "date": "2020/08/03",
     "youtube": "CwzQ5oXzgio",
