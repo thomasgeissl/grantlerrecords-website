@@ -1,5 +1,22 @@
 [
   {
+    "title": "Max Richter - Voices",
+    "date": "2020/08/04",
+    "youtube": "QmrIDK03Hlg",
+    "description": "British composer Max Richter released a new album. it features the Universal Declaration of Human Rights, spoken by various people in different languages. he also released an app version of his 2005 piece sleep.",
+    "release": "Voices was released on <a href=\"https://decca.com/\" target=\"_blank\">Decca Records</a> on JuLy 31, 2020.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/3Ndz8fhskuQ0MWWdQcLMEN?si=bBJfLtCfS3aPcJI1QpdPIg"
+      },
+      {
+        "text": "somewhere else",
+        "url": "https://maxrichter.lnk.to/Voices"
+      }
+    ]
+  },
+  {
     "title": "Ruby Haunt - Tiebreaker",
     "date": "2020/08/03",
     "youtube": "G5NHwu-e0CQ",
