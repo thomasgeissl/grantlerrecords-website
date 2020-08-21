@@ -1,5 +1,56 @@
 [
   {
+    "title": "Bright Eyes - Down in the Weeds, Where the World Once Was",
+    "date": "2020/08/19",
+    "youtube": "K4vO8gh6xdM",
+    "description": "Bright Eyes return with their first new album in nine years.",
+    "release": "Down in the Weeds, Where the World Once Was was released through <a href=\"https://deadoceans.com/\" target=\"_blank\">Dead Oceans</a> on August 21, 2020.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/1GMHBkCYVzWqrrczVDBJKm?si=A7gMgajFS3ijm2ofhEFFgw"
+      },
+      {
+        "text": "youtube",
+        "url": "https://www.youtube.com/watch?v=FUpy2ovr3tA&list=PLxA687tYuMWit3PuEB-HXVTnTvDzbFlcA&index=1"
+      }
+    ]
+  },
+  {
+    "title": "Library Tapes - The Quiet City",
+    "date": "2020/08/21",
+    "youtube": "SxRAoOOmC6o",
+    "description": "David Wenngren released a new Library Tapes album, it was made in collaboration with many other artists. it contains 10 instrumental tracks.",
+    "release": "The Quite City was released on his label <a href=\"https://1631recordings.bandcamp.com/\" target=\"_blank\">1631 Recordings</a> on August 21, 2020.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/4MAHoKR03RTrQGiSB73eu7?si=S0SMB6AVRD2uZYdlu2VDGQ"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://librarytapes.bandcamp.com/album/the-quiet-city"
+      }
+    ]
+  },
+  {
+    "title": "The Notwist - Ship",
+    "date": "2020/08/21",
+    "youtube": "larZSMMa_k0",
+    "description": "The Notwist released a new ep.",
+    "release": "Ship was released on <a href=\"https://www.morrmusic.com/\" target=\"_blank\">Morr Music</a> on August 21, 2020.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/6O7c59VtUvSE7ZeIrkKElk?si=5YOEUkOJSyqOq7x9Tl5S1A"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://thenotwist.bandcamp.com/album/ship"
+      }
+    ]
+  },
+  {
     "title": "Meena - EP",
     "date": "2020/08/19",
     "youtube": "GKm3egjQAn8",
