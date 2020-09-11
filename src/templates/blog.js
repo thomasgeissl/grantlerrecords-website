@@ -184,10 +184,10 @@ export default class Blog extends React.Component {
         <List>
           {posts.map((post, index) => {
             const { node } = post
-            const { type, author, title, date, youtube, image, links, description, release, md } = node
+            const { type, author, title, date, slug, youtube, image, links, description, release, md } = node
             return (
               <Entry key={index} type={type}>
-                <Link to={`/blog/post/${createSlug(title)}`} rel="stop">
+                <Link to={`/blog/post/${slug ? slug : createSlug(title)}`} rel="stop">
                   <h2 id={encodeURI(`${date}_${title}`)}>{title}</h2>
                 </Link>
                 <Meta author={author} date={date}></Meta>
@@ -263,6 +263,7 @@ export const blogQuery = graphql`
           id
           title
           date
+          slug
           youtube
           image
           description

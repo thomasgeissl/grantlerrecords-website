@@ -19,6 +19,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
               id
               type
               title
+              slug
               author {
                 name
                 url
@@ -89,7 +90,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   })
 
   for (let i = 0; i < posts.length; i++) {
-    const previousPath = i !== 0 ? `/blog/post/${createSlug(posts[i - 1].node.title)}` : ""
+    const previousPath = i !== 0 ? `/blog/post/${posts[i - 1].node.slug ? posts[i - 1].node.slug : createSlug(posts[i - 1].node.title)}` : ""
     const post = posts[i]
     let md = null
     if (post.node.md) {
@@ -101,9 +102,9 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         // console.log(article.node.frontmatter.html)
       })
     }
-    const nextPath = i < posts.length - 1 ? `/blog/post/${createSlug(posts[i + 1].node.title)}` : ""
+    const nextPath = i < posts.length - 1 ? `/blog/post/${posts[i + 1].node.slug ? posts[i + 1].node.slug : createSlug(posts[i + 1].node.title)}` : ""
     createPage({
-      path: `/blog/post/${createSlug(post.node.title)}`,
+      path: `/blog/post/${post.node.slug ? post.node.slug : createSlug(post.node.title)}`,
       component: path.resolve("./src/templates/blogPost.js"),
       context: {
         previousPath,
