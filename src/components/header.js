@@ -30,10 +30,10 @@ const Headline = styled.span`
     color: black;
   }
 `
-const BlogLink = styled.span`
+const Item = styled.span`
   background-color: white;
   color: black;
-  margin-left: auto;
+  margin-left: 5px;
   padding-left: 5px;
   padding-right: 5px;
   margin-top: auto;
@@ -55,6 +55,13 @@ const Subline = styled.span`
     display: none;
   }
 `
+
+const Menu = styled.ul`
+  list-style-type: none;
+  float: right;
+  margin: 0;
+  margin-left: auto;
+`
 export default () => {
   return (
     <Container>
@@ -62,9 +69,14 @@ export default () => {
         <Link to="/">grantler records</Link>
       </Headline>
       <Subline>a home for direct, imperfect and honest music</Subline>
-      <BlogLink>
-        <Link to="/blog">blog</Link>
-      </BlogLink>
+      <Menu>
+        <Item>
+          <Link to="/artists">artists</Link>
+        </Item>
+        <Item>
+          <Link to="/blog">blog</Link>
+        </Item>
+      </Menu>
     </Container>
   )
 }

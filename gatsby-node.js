@@ -50,6 +50,18 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             }
           }
         }
+        allArtistsJson {
+          edges {
+            node {
+              title
+              description
+              links {
+                text
+                url
+              }
+            }
+          }
+        }
       }
     `
   )
@@ -103,6 +115,14 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       },
     })
   }
+  const artists = result.data.allArtistsJson.edges
+  createPage({
+    path: "/artists",
+    component: path.resolve("./src/templates/artists.js"),
+    context: {
+      artists
+    },
+  })
 }
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
