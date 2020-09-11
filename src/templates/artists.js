@@ -9,6 +9,17 @@ const List = styled.ul`
 const Item = styled.li`
   text-align: right;
 `
+const Image = styled.img`
+width: 100%;
+@media (min-width: 768px) {
+  width: 33%;
+}`
+const Content = styled.div`
+width: 100%;
+@media (min-width: 768px) {
+  width: 66.66%;
+}`
+
 const Title = styled.h2``
 const Description = styled.section``
 const Links = styled.section``
@@ -22,9 +33,12 @@ export default ({ pageContext }) => {
       <h1>artists</h1>
       <List>
         {artists.map((artist, index) => {
-          const {title, description, links} = artist.node
+          const {title, description, image, links} = artist.node
           return (
           <Item>
+            <Image src={image}></Image>
+            <Content>
+
             <Title>{title}</Title>
             <Description>{description}</Description>
                   {links && <Links>
@@ -44,6 +58,7 @@ export default ({ pageContext }) => {
                     })}
                   .
                 </Links>}
+            </Content>
           </Item>
           )
         })}
