@@ -125,6 +125,21 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       artists
     },
   })
+  artists.forEach(artist => {
+    console.log(artist)
+    createPage({
+      path: `/artists/${createSlug(artist.node.title)}`,
+      component: path.resolve("./src/templates/artist.js"),
+      context: {
+        // previousPath,
+        // nextPath,
+        // currentPost: i,
+        // numPosts: posts.length,
+        data: artist.node,
+        // mdData: post.node.md ? md : null
+      }
+    })
+  })
 }
 exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions

@@ -1,6 +1,8 @@
+import { Link } from "gatsby"
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { createSlug } from "../utils"
 import styled from "styled-components"
 
 const List = styled.ul`
@@ -19,6 +21,7 @@ width: 100%;
 @media (min-width: 768px) {
   width: 66.66%;
 }`
+const Releases = styled.div``
 
 const Title = styled.h2``
 const Description = styled.section``
@@ -26,7 +29,6 @@ const Links = styled.section``
 
 export default ({ pageContext }) => {
   const {artists} = pageContext
-  console.log(artists)
   return (
     <Layout>
       <SEO title="artists" />
@@ -39,7 +41,11 @@ export default ({ pageContext }) => {
             <Image src={image}></Image>
             <Content>
 
-            <Title>{title}</Title>
+            <Title>
+              <Link to={`/artists/${createSlug(title)}`} rel="stop">
+                {title}
+              </Link>
+            </Title>
             <Description>{description}</Description>
                   {links && <Links>
                     more on{" "}
@@ -59,12 +65,11 @@ export default ({ pageContext }) => {
                   .
                 </Links>}
             </Content>
+            {/* <Releases>releases here</Releases> */}
           </Item>
           )
         })}
       </List>
-
-
     </Layout>
   )
  }
