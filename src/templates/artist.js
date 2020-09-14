@@ -16,14 +16,30 @@ width: 100%;
 @media (min-width: 768px) {
   width: 66.66%;
 }`
-const Releases = styled.div``
+const Releases = styled.ul`
+  list-style-type: none;
+  width: 100%;
+  @media (min-width: 768px) {
+    width: 66.66%;
+  }
+  padding: 0;
+  margin-top: 20px;
+`
+const Release = styled.li`
+  display: inline-block;
+  width: 20%;
+  img{
+    width: 100%;
+  }
+  margin-left: 15px;
+  `
 
 const Title = styled.h2``
 const Description = styled.section``
 const Links = styled.section``
 
 export default ({pageContext}) => {
-  const {title, description, image, links} = pageContext.data
+  const {title, description, image, links, releases,} = pageContext.data
   return (
     <Layout>
       <SEO title="artists" />
@@ -51,7 +67,16 @@ export default ({pageContext}) => {
                   .
                 </Links>}
             </Content>
-            {/* <Releases>releases here</Releases> */}
+              <Releases>
+                {releases.map(release => {
+                  return (
+              <Release>
+                  <img src={release.image}></img>
+              </Release>
+                  )
+                 })
+                }
+            </Releases>
           </Item>
     </Layout>
   )

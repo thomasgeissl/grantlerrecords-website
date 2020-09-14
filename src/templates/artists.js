@@ -20,8 +20,25 @@ const Content = styled.div`
 width: 100%;
 @media (min-width: 768px) {
   width: 66.66%;
-}`
-const Releases = styled.div``
+}
+`
+const Releases = styled.ul`
+  list-style-type: none;
+  width: 100%;
+  @media (min-width: 768px) {
+    width: 66.66%;
+  }
+  padding: 0;
+  margin-top: 20px;
+`
+const Release = styled.li`
+  display: inline-block;
+  width: 20%;
+  img{
+    width: 100%;
+  }
+  margin-left: 15px;
+  `
 
 const Title = styled.h2``
 const Description = styled.section``
@@ -35,7 +52,7 @@ export default ({ pageContext }) => {
       <h1>artists</h1>
       <List>
         {artists.map((artist, index) => {
-          const {title, description, image, links} = artist.node
+          const {title, description, image, links, releases} = artist.node
           return (
           <Item>
             <Image src={image}></Image>
@@ -65,7 +82,16 @@ export default ({ pageContext }) => {
                   .
                 </Links>}
             </Content>
-            {/* <Releases>releases here</Releases> */}
+            <Releases>
+                {releases.map(release => {
+                  return (
+              <Release>
+                  <img src={release.image}></img>
+              </Release>
+                  )
+                 })
+                }
+            </Releases>
           </Item>
           )
         })}
