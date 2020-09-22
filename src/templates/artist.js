@@ -42,7 +42,7 @@ export default ({pageContext}) => {
   const {title, description, image, links, releases,} = pageContext.data
   return (
     <Layout>
-      <SEO title="artists" />
+      <SEO title={title} />
           <Item>
             <Image src={image}></Image>
             <Content>
