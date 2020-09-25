@@ -1,10 +1,27 @@
 [
   {
+    "title": "Kraków Loves Adana - Darker Darkness",
+    "date": "2020/09/25",
+    "youtube": "ZQJ3sbXFMZ4",
+    "description": "the duo Kraków Loves Adana are back with a new album, somewhere between dream pop and dark wave.",
+    "release": "Darker Darkness was self-released on September 25, 2020.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/4IGfN8PoIyYgmzKDJ5na2l?si=plluHKUfTry1nUBQh0USKg"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://krakowlovesadana.bandcamp.com/album/darkest-dreams"
+      }
+    ]
+  },
+  {
     "title": "Fenne Lily - BREACH",
     "date": "2020/09/18",
     "youtube": "byjZFkj3Thg",
     "description": "Bristol based Fenne Lily released her second album.",
-    "release": "BREACH was release on <a href=\"https://deadoceans.com/\" target=\"_blank\">Dead Oceans</a> on September 18, 2020.",
+    "release": "BREACH was released on <a href=\"https://deadoceans.com/\" target=\"_blank\">Dead Oceans</a> on September 18, 2020.",
     "links": [
       {
         "text": "spotify",
