@@ -1,5 +1,39 @@
 [
   {
+    "title": "Eels - Earth to Dora",
+    "date": "2020/11/06",
+    "youtube": "tfsby3Rh8r0",
+    "description": "Earth to Dora is Eel's thirteenth studio album.",
+    "release": "Earth to Dora was released <a href=\"https://www.pias.com/\" target=\"_blank\">E Works/PIAS</a> on October 30, 2020.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/2PtZABAnPwyVF8KquMWPnG?si=CkV6tZ2UQVCM9qx2XZNO2A"
+      },
+      {
+        "text": "somewhere else",
+        "url": "https://ffm.to/e_etd"
+      }
+    ]
+  },
+  {
+    "title": "Stella Sommer - Northern Dancer",
+    "date": "2020/11/06",
+    "youtube": "784U_YWmqdU",
+    "description": "Stella Sommer (Die Heiterkeit) is providing us a new quarantine soundtrack. the ten tracks on her new album are reduced to the minimal - namely her voice and piano.",
+    "release": "Northern Dancer was released on her label Northern Dancer Records on October 30, 2020.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/2RaOuDeqj4zrrDDZiulB2E?si=_S2kdyxARLSjaDNs9p8jHw"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://stellasommer.bandcamp.com/album/northern-dancer"
+      }
+    ]
+  },
+  {
     "title": "Lebanon Hanover - Sci-Fi Sky",
     "date": "2020/10/23",
     "youtube": "h6aauGLivPI",
