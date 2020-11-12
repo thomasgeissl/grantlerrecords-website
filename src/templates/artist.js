@@ -74,7 +74,7 @@ export default ({ pageContext }) => {
           {releases.map(release => {
             return (
               <Release>
-                <img src={release.image}></img>
+                <img src={release.image} al="cover of release"></img>
               </Release>
             )
           })}

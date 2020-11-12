@@ -10,6 +10,7 @@ const List = styled.ul`
 `
 const Item = styled.li`
   text-align: right;
+  margin-bottom: 64px;
 `
 const Image = styled.img`
   width: 100%;
