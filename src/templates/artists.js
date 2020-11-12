@@ -12,15 +12,16 @@ const Item = styled.li`
   text-align: right;
 `
 const Image = styled.img`
-width: 100%;
-@media (min-width: 768px) {
-  width: 33%;
-}`
+  width: 100%;
+  @media (min-width: 768px) {
+    width: 33%;
+  }
+`
 const Content = styled.div`
-width: 100%;
-@media (min-width: 768px) {
-  width: 66.66%;
-}
+  width: 100%;
+  @media (min-width: 768px) {
+    width: 66.66%;
+  }
 `
 const Releases = styled.ul`
   list-style-type: none;
@@ -34,68 +35,72 @@ const Releases = styled.ul`
 const Release = styled.li`
   display: inline-block;
   width: 20%;
-  img{
+  img {
     width: 100%;
   }
   margin-left: 15px;
-  `
+`
 
 const Title = styled.h2``
 const Description = styled.section``
 const Links = styled.section``
 
 export default ({ pageContext }) => {
-  const {artists} = pageContext
+  const { artists } = pageContext
   return (
     <Layout>
       <SEO title="artists" />
       <h1>artists</h1>
       <List>
         {artists.map((artist, index) => {
-          const {title, description, image, links, releases} = artist.node
+          const { title, description, image, links, releases } = artist.node
           return (
-          <Item>
-            <Image src={image}></Image>
-            <Content>
-
-            <Title>
-              <Link to={`/artists/${createSlug(title)}`} rel="stop">
-                {title}
-              </Link>
-            </Title>
-            <Description>{description}</Description>
-                  {links && <Links>
+            <Item>
+              <Image src={image} alt="cover of artist"></Image>
+              <Content>
+                <Title>
+                  <Link to={`/artists/${createSlug(title)}`} rel="stop">
+                    {title}
+                  </Link>
+                </Title>
+                <Description>{description}</Description>
+                {links && (
+                  <Links>
                     more on{" "}
                     {links.map((link, index) => {
-                        const { text, url } = link
+                      const { text, url } = link
 
-                        return (
-                            <span key={index}>
-                                <a href={url} target="_blank" rel="noopener noreferrer">
-                                    {text}
-                                </a>
-                                {index < links.length - 2 && <>, </>}
-                                {index === links.length - 2 && <> or </>}
-                            </span>
-                        )
+                      return (
+                        <span key={index}>
+                          <a
+                            href={url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {text}
+                          </a>
+                          {index < links.length - 2 && <>, </>}
+                          {index === links.length - 2 && <> or </>}
+                        </span>
+                      )
                     })}
-                  .
-                </Links>}
-            </Content>
-            <Releases>
+                    .
+                  </Links>
+                )}
+              </Content>
+              <Releases>
                 {releases.map(release => {
                   return (
-              <Release>
-                  <img src={release.image}></img>
-              </Release>
+                    <Release>
+                      <img src={release.image} alt="cover of release"></img>
+                    </Release>
                   )
-                 })
-                }
-            </Releases>
-          </Item>
+                })}
+              </Releases>
+            </Item>
           )
         })}
       </List>
     </Layout>
   )
- }
+}

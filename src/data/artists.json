@@ -1,4 +1,5 @@
 [
+
     {
         "title": "Lens Arc",
         "description": "Lens Arc is the name that Thomas Haida, originally from a tiny village in Bavaria and now residing in Berlin, has chosen for his musical outlet -- with everything made by himself in the various bedrooms that he has physically occupied over time (and most of the time). His music aspires to be a nit-picked blend of sounds from various inspirations, like the warbled guitars of shoegaze with a droning voice drenched in dark reverb, some hazy ambient synths borrowed from 80s new age albums and the hypnagogic lofi-ness of early 2010s Bandcamp psych pop tapes.",
@@ -23,5 +24,18 @@
                 "image": "/images/artists/lens_arc/releases/monolith_receptor.jpg"
             }
         ]
-    }
+    },
+    {
+        "title": "silent sex",
+        "description": "based in minga. too many reverb and emotions. very much into c major.",
+        "image": "/images/artists/silent_sex/artist.jpg",
+        "links": [
+            {
+                "text": "soundcload",
+                "url": "https://soundcloud.com/silentsex/"
+            }
+        ],
+        "releases": [
+        ]
+    },
 ]
