@@ -2,12 +2,10 @@ const path = require("path")
 const { createFilePath } = require("gatsby-source-filesystem")
 
 exports.createPages = async ({ graphql, actions, reporter }) => {
-  const createSlug = (Text) => {
-    return Text
-      .toLowerCase()
-      .replace(/ /g, '-')
-      .replace(/[^\w-]+/g, '')
-      ;
+  const createSlug = Text => {
+    return Text.toLowerCase()
+      .replace(/ /g, "-")
+      .replace(/[^\w-]+/g, "")
   }
   const { createPage } = actions
   const result = await graphql(
@@ -95,21 +93,36 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   })
 
   for (let i = 0; i < posts.length; i++) {
-    const previousPath = i !== 0 ? `/blog/post/${posts[i - 1].node.slug ? posts[i - 1].node.slug : createSlug(posts[i - 1].node.title)}` : ""
+    const previousPath =
+      i !== 0
+        ? `/blog/post/${
+            posts[i - 1].node.slug
+              ? posts[i - 1].node.slug
+              : createSlug(posts[i - 1].node.title)
+          }`
+        : ""
     const post = posts[i]
     let md = null
     if (post.node.md) {
       articles.forEach(article => {
-        console.log(article.node.frontmatter.id)
         if (article.node.frontmatter.id == post.node.md) {
           md = article.node
         }
         // console.log(article.node.frontmatter.html)
       })
     }
-    const nextPath = i < posts.length - 1 ? `/blog/post/${posts[i + 1].node.slug ? posts[i + 1].node.slug : createSlug(posts[i + 1].node.title)}` : ""
+    const nextPath =
+      i < posts.length - 1
+        ? `/blog/post/${
+            posts[i + 1].node.slug
+              ? posts[i + 1].node.slug
+              : createSlug(posts[i + 1].node.title)
+          }`
+        : ""
     createPage({
-      path: `/blog/post/${post.node.slug ? post.node.slug : createSlug(post.node.title)}`,
+      path: `/blog/post/${
+        post.node.slug ? post.node.slug : createSlug(post.node.title)
+      }`,
       component: path.resolve("./src/templates/blogPost.js"),
       context: {
         previousPath,
@@ -117,7 +130,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         currentPost: i,
         numPosts: posts.length,
         data: post,
-        mdData: post.node.md ? md : null
+        mdData: post.node.md ? md : null,
       },
     })
   }
@@ -126,11 +139,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     path: "/artists",
     component: path.resolve("./src/templates/artists.js"),
     context: {
-      artists
+      artists,
     },
   })
   artists.forEach(artist => {
-    console.log(artist)
     createPage({
       path: `/artists/${createSlug(artist.node.title)}`,
       component: path.resolve("./src/templates/artist.js"),
@@ -141,7 +153,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         // numPosts: posts.length,
         data: artist.node,
         // mdData: post.node.md ? md : null
-      }
+      },
     })
   })
 }

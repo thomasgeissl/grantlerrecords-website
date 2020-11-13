@@ -1,5 +1,23 @@
 [
   {
+    "title": "Молчат Дома - Дискотека",
+    "slug": "molchat-doma---monument",
+    "date": "2020/11/13",
+    "youtube": "A6qmSBlhNik",
+    "description": "Molchat Doma are a cold wave band from Belarus. they just released their third studio album.",
+    "release": "Monument was released on <a href=\"https://www.sacredbonesrecords.com\" target=\"_blank\">Sacred Bones Records</a> on November 11, 2020.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/48XbS5emhKTYTw7YAiqUKL?si=wCMp2636SoasfcOZZY2SLA"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://domamolchat.bandcamp.com/album/monument"
+      }
+    ]
+  },
+  {
     "title": "The Goalie's Anxiety at the Penalty Kick - Ways of Hearing",
     "date": "2020/11/07",
     "youtube": "RtysmCvGFtY",
