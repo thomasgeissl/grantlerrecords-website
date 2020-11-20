@@ -1,5 +1,51 @@
 [
   {
+    "title": "I Am Oak - Odd Seeds (Pt 1)",
+    "date": "2020/11/20",
+    "youtube": "VShwqR7XTh8",
+    "description": "Ultrecht based I Am Oak released a new lp. it contains 14 tracks.",
+    "release": "Monument was released on <a href=\"http://www.snowstar.nl/\" target=\"_blank\">Snowstar Records</a> on November 20, 2020.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/2ZROe6MOuZAjBZIxrtlVUO?si=uaXMOT_UTSekgCgXPoro9Q"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://iamoak.bandcamp.com/"
+      }
+    ]
+  },
+  {
+    "title": "Clara Luzia - 4 + 1",
+    "date": "2020/11/20",
+    "youtube": "9RQs5t1JdsI",
+    "description": "Clara Luzia's new ep contains four originals and one cover song.",
+    "release": "Monument was released on <a href=\"https://asinellarecords.com//\" target=\"_blank\">Asinella Records</a> on November 20, 2020.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/0jegAr3DI4aiwyIVd7Dwti?si=a1Pe31glTrWlHUjdA2IBQg"
+      },
+      {
+        "text": "artistcamp",
+        "url": "http://www.artistcamp.com/clara-luzia/4-1/9006472038085/index.html"
+      }
+    ]
+  },
+  {
+    "title": "Silent Sex - Ohnmacht",
+    "date": "2020/11/20",
+    "description": "based in minga. and very much into c major and reverb. the new silent sex single is available on most major streaming services. don't hesitate to message us for stems, if you want to sample, remix or be otherwise creative with it.",
+    "release": "Ohnmacht was released on <a href=\"https://www.grantlerrecords.com\" target=\"_blank\">Grantler Records</a> on November 20, 2020.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/53xj4oaOO0wbBSEKFg7kqt?si=kx8it7pZRx6DRpzqwOd6JA"
+      }
+    ]
+  },
+  {
     "title": "Молчат Дома - Дискотека",
     "slug": "molchat-doma---monument",
     "date": "2020/11/13",
