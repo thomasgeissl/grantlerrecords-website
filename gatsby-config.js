@@ -5,7 +5,7 @@ module.exports = {
     description: `a home for direct, imperfect and honest music.`,
     keywords: ["grantler", "music", "label", "diy", "blog", "soundsystem"],
     author: `grantler records`,
-    image: `/logo.png`
+    image: `/logo.png`,
   },
   plugins: [
     {
@@ -97,18 +97,20 @@ module.exports = {
     },
     `gatsby-transformer-remark`,
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-webfonts`,
       options: {
-        fonts: [
-          {
-            family: `Rajdhani`,
-            variants: [`400`, `700`],
-          },
-          {
-            family: `Rajdhani`,
-            subsets: [`latin`],
-          },
-        ],
+        fonts: {
+          google: [
+            {
+              family: `Rajdhani`,
+              variants: [`400`, `700`],
+            },
+            {
+              family: `Rajdhani`,
+              subsets: [`latin`],
+            },
+          ],
+        },
       },
     },
     {
