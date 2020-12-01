@@ -31,8 +31,12 @@
         "image": "/images/artists/silent_sex/artist.jpg",
         "links": [
             {
-                "text": "soundcload",
+                "text": "soundcloud",
                 "url": "https://soundcloud.com/silentsex/"
+            },
+            {
+                "text": "spotify",
+                "url": "https://open.spotify.com/artist/7l2ZKJBXPoatdKcs7gXmeA?si=kQZnzd0PS3WbZOqFPCEUfQ"
             }
         ],
         "releases": [
