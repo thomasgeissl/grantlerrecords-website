@@ -1,4 +1,55 @@
 [
+
+  {
+    "title": "Medio Mutante - 800%",
+    "date": "2020/12/20",
+    "youtube": "8VqUodNIRnw",
+    "description": "800% is a slow motion remix album of 13 Medio Mutante tracks from the last 13 years. It's over three hours long, it was remixed <i>utilizing digital and analog tools such as microcassette recorders, paulstretch, mammut, max/msp and reel-to-reel tape machines</i>.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/7JoPTNp3jxnkBwoMZJqaKT?si=7dfRQZzlTEO8vSJMy-Q6MQ"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://mediomutante.bandcamp.com/album/800"
+      }
+    ]
+  },
+  {
+    "title": "Max Richter - Beethoven - Opus 2020",
+    "date": "2020/12/20",
+    "youtube": "ypo6ZDSiviI",
+    "description": "happy birthday Beethoven!",
+    "release": "Opus 2020 was released on <a href=\"https://www.deutschegrammophon.com/en/\" target=\"_blank\">Deutsche Grammophon</a> on Dezember 17, 2020 - Beethoven's 250th birthday.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/20wWk1NMzgBZ5dHEqAvZiE?si=ZuoyNZJ7Sb6wCNlUzcJA_w"
+      },
+      {
+        "text": "somewhere else",
+        "url": "https://DG.lnk.to/opus2020"
+      }
+    ]
+  },
+  {
+    "title": "Nicholas Lens, Nick Cave – L.I.T.A.N.I.E.S",
+    "date": "2020/12/20",
+    "youtube": "8VwQ3hr-mtg",
+    "description": "Nick Cave has written the libretto for L.I.T.A.N.I.E.S, Nicholas Lens' new opera.",
+    "release": "L.I.T.A.N.I.E.S was released on <a href=\"https://www.deutschegrammophon.com/en/\" target=\"_blank\">Deutsche Grammophon</a> on Dezember 4, 2020.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/7DjSqfC50batvigmoGhGPb?si=wjI0BfBiQsa8lDar-_deRA"
+      },
+      {
+        "text": "imusic",
+        "url": "https://imusic.am/al/pyPRoIQ"
+      }
+    ]
+  },
   {
     "title": "Sigur Rós – Odin’s Raven Magic",
     "date": "2020/12/04",
