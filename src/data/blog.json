@@ -1,5 +1,21 @@
 [
-
+  {
+    "title": "Seasurfer - Zombies",
+    "date": "2020/12/21",
+    "youtube": "BG9a83lwHig",
+    "description": "Hamburg based shoegaze band seasurfer released their third album - Zombies.",
+    "release": "Zombies was released on <a href=\"https://www.facebook.com/reptile.music/\" target=\"_blank\">Reptile Music</a> on Dezember 11, 2020.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/4UC9qhdzkmWE16AEcEip5x?si=jxNoKhY4SOWpU5sBGbShyA"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://reptilemusic.bandcamp.com/album/seasurfer-zombies-double-album"
+      }
+    ]
+  },
   {
     "title": "Medio Mutante - 800%",
     "date": "2020/12/20",
