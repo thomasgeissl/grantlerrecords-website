@@ -10,6 +10,5 @@ static website for grantler records built with gatsby and react.
 - publish to github pages: `yarn deploy`
 
 ## Build status
-
-[](https://github.com/thomasgeissl/grantlerrecords-website/workflows/master_deploy/badge.svg)
+[![Build Status](https://github.com/thomasgeissl/grantlerrecords-website/workflows/master_deploy/badge.svg)](https://github.com/thomasgeissl/grantlerrecords-website/actions?query=workflow%3Amaster_deploy)
 
