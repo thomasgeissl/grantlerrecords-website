@@ -11,4 +11,5 @@ static website for grantler records built with gatsby and react.
 
 ## Build status
 
-[![Build Status](https://travis-ci.com/thomasgeissl/grantlerrecords-website.svg?branch=master)](https://travis-ci.com/thomasgeissl/grantlerrecords-website)
+https://github.com/thomasgeissl/grantlerrecords-website/workflows/master_deploy/badge.svg
+
