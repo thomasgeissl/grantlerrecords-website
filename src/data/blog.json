@@ -1,5 +1,22 @@
 [
   {
+    "title": "Max Black - The Outside",
+    "date": "2021/3/11",
+    "image": "https://f4.bcbits.com/img/a0204663507_16.jpg",
+    "description": "Philadelphia based shoegaze!",
+    "release": "The Outside was released on January 1, 2021.",
+    "links": [
+      {
+        "text": "bandcamp",
+        "url": "https://maxwellblack.bandcamp.com/album/the-outside"
+      },
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/0cK5jJIdFi2uKWZUYQcFBK?si=iErq0O9TR82GBof4lHCepw"
+      }
+    ]
+  },
+  {
     "title": "Homespun Retrospect",
     "date": "2021/3/11",
     "image": "/images/artists/lens_arc/artist.jpg",
