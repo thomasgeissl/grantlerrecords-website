@@ -1,5 +1,43 @@
 [
   {
+    "title": "Xiu Xiu - OH NO",
+    "date": "2021/3/26",
+    "youtube": "yialek4fUUg",
+    "description": "duets! the new Xiu Xiu album features collaborations with Sharon Van Etten, Chelsea Wolfe, Owen Pallett, Drab Majesty and many more.",
+    "release": "OH NO was released on <a href=\"https://www.polyvinylrecords.com/\" target=\"_blank\">Polyvinyl Records</a> on March 26, 2021.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/2SbUQzPa9VVxADKHZDsXLJ?si=QCnk7LOUQb2kWO9J41eNIw"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://xiuxiu.bandcamp.com/album/oh-no"
+      }
+    ]
+  },
+  {
+    "title": "Scyr - So Sad",
+    "date": "2021/3/26",
+    "youtube": "cWZbrJDsYto",
+    "description": "lost in 80s. new wave from munich.",
+    "release": "So Sad was released on March 19, 2021.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/4RFIuJupXLZmZhA3WXm06v?si=o7UHG3siR5eWjqyhE8yDTA"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://scyr.bandcamp.com/album/so-sad"
+      },
+      {
+        "text": "youtube",
+        "url": "https://www.youtube.com/watch?v=XISyz_Bf3GI&list=OLAK5uy_l-C5vlGFCl13qwpj6bDZKTwvTIXlL9cYc"
+      }
+    ]
+  },
+  {
     "title": "Max Black - The Outside",
     "date": "2021/3/11",
     "image": "https://f4.bcbits.com/img/a0204663507_16.jpg",
