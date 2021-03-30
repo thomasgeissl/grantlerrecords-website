@@ -1,5 +1,22 @@
 [
   {
+    "title": "Nils Frahm - Graz",
+    "date": "2021/3/30",
+    "youtube": "NWjCSCY_a",
+    "description": "88 days, 88 keys, and a new Nils Frahm album released on Piano Day 2021.",
+    "release": "Graz was released on <a href=\"https://www.erasedtapes.com/\" target=\"_blank\">Erased Tapes</a> on March 29, 2021.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/6zg9Xz3Xi9a3dIbyRDjJux?si=KHxWGBR3SXGwBKarKGBgMg"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://nilsfrahm.bandcamp.com/album/graz"
+      }
+    ]
+  },
+  {
     "title": "The Antlers - Green to Gold",
     "date": "2021/3/30",
     "youtube": "5dy72MobGy8",
