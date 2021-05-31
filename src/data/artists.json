@@ -49,7 +49,7 @@
     {
         "title": "Bengler/Geissl",
         "description": "Klang-/Licht STROM is a collaborative project of Ben Bengler (music, live electronics) and Thomas Geissl (light, programming), performing together as Bengler/Geissl since 2018. It’s driven by their shared vision for creating performances where the audience is in the centre of things, with sound and light unfolding around them.",
-        "image": "images/artists/bengler_geissl/artists.jpg",
+        "image": "/images/artists/bengler_geissl/artists.jpg",
         "links": [
             {
                 "text": "their website",

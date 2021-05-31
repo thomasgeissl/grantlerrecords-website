@@ -72,9 +72,9 @@ export default ({ pageContext }) => {
         </Content>
         {releases && (
           <Releases>
-            {releases.map(release => {
+            {releases.map((release, index) => {
               return (
-                <Release>
+                <Release key={index}>
                   <img src={release.image} alt="cover of release"></img>
                 </Release>
               )

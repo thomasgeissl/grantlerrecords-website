@@ -56,7 +56,7 @@ export default ({ pageContext }) => {
         {artists.map((artist, index) => {
           const { title, description, image, links, releases } = artist.node
           return (
-            <Item>
+            <Item key={index}>
               <Image src={image} alt="cover of artist"></Image>
               <Content>
                 <Title>
@@ -91,9 +91,9 @@ export default ({ pageContext }) => {
               </Content>
               {releases && (
                 <Releases>
-                  {releases.map(release => {
+                  {releases.map((release, index) => {
                     return (
-                      <Release>
+                      <Release key={index}>
                         <img src={release.image} alt="cover of release"></img>
                       </Release>
                     )
