@@ -70,15 +70,17 @@ export default ({ pageContext }) => {
             </Links>
           )}
         </Content>
-        <Releases>
-          {releases.map(release => {
-            return (
-              <Release>
-                <img src={release.image} alt="cover of release"></img>
-              </Release>
-            )
-          })}
-        </Releases>
+        {releases && (
+          <Releases>
+            {releases.map(release => {
+              return (
+                <Release>
+                  <img src={release.image} alt="cover of release"></img>
+                </Release>
+              )
+            })}
+          </Releases>
+        )}
       </Item>
     </Layout>
   )
