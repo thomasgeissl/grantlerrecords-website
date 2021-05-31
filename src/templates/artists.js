@@ -10,7 +10,7 @@ const List = styled.ul`
 `
 const Item = styled.li`
   text-align: right;
-  margin-bottom: 64px;
+  margin-bottom: 256px;
 `
 const Image = styled.img`
   width: 100%;
@@ -89,15 +89,17 @@ export default ({ pageContext }) => {
                   </Links>
                 )}
               </Content>
-              <Releases>
-                {releases.map(release => {
-                  return (
-                    <Release>
-                      <img src={release.image} alt="cover of release"></img>
-                    </Release>
-                  )
-                })}
-              </Releases>
+              {releases && (
+                <Releases>
+                  {releases.map(release => {
+                    return (
+                      <Release>
+                        <img src={release.image} alt="cover of release"></img>
+                      </Release>
+                    )
+                  })}
+                </Releases>
+              )}
             </Item>
           )
         })}
