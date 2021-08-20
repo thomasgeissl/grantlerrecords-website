@@ -39,9 +39,9 @@ module.exports = {
                     description: edge.node.description,
                     date: edge.node.date,
                     url:
-                      site.siteMetadata.siteUrl + create_slug(edge.node.title),
+                      site.siteMetadata.siteUrl + createSlug(edge.node.title),
                     guid:
-                      site.siteMetadata.siteUrl + create_slug(edge.node.title),
+                      site.siteMetadata.siteUrl + createSlug(edge.node.title),
                   }
                 )
               })
