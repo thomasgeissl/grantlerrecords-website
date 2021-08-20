@@ -90,7 +90,6 @@ const Description = styled.section`
 const Links = styled.section``
 const Release = styled.section``
 
-
 const Controls = ({
   isFirst,
   isLast,
@@ -132,7 +131,9 @@ const Controls = ({
   )
 }
 
-const ReadMore = styled.section`margin-top: 32px;`
+const ReadMore = styled.section`
+  margin-top: 32px;
+`
 
 export default class Blog extends React.Component {
   render() {
@@ -153,7 +154,7 @@ export default class Blog extends React.Component {
         <h1>
           blog{" "}
           <a
-            href="http://grantlerrecords.de/rss.xml"
+            href="https://grantlerrecords.com/rss.xml"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -169,7 +170,16 @@ export default class Blog extends React.Component {
           >
             spotify playlist
           </a>
-          .
+          .<br></br>
+          we do not use social media to promote new posts, but there is an{" "}
+          <a
+            href="https://grantlerrecords.com/rss.xml"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            rss feed
+          </a>{" "}
+          available. and yes, it is oldschool.
         </p>
         <Controls
           isFirst={isFirst}
@@ -184,16 +194,29 @@ export default class Blog extends React.Component {
         <List>
           {posts.map((post, index) => {
             const { node } = post
-            const { type, author, title, date, slug, youtube, image, links, description, release, md } = node
+            const {
+              type,
+              author,
+              title,
+              date,
+              slug,
+              youtube,
+              image,
+              links,
+              description,
+              release,
+              md,
+            } = node
             return (
               <Entry key={index} type={type}>
-                <Link to={`/blog/post/${slug ? slug : createSlug(title)}`} rel="stop">
+                <Link
+                  to={`/blog/post/${slug ? slug : createSlug(title)}`}
+                  rel="stop"
+                >
                   <h2 id={encodeURI(`${date}_${title}`)}>{title}</h2>
                 </Link>
                 <Meta author={author} date={date}></Meta>
-                {youtube && (
-                  <Video className="video" youtube={youtube}></Video>
-                )}
+                {youtube && <Video className="video" youtube={youtube}></Video>}
                 {image && <Image src={image}></Image>}
                 <Description
                   className="description"
@@ -202,31 +225,37 @@ export default class Blog extends React.Component {
                 <Release
                   dangerouslySetInnerHTML={{ __html: release }}
                 ></Release>
-                {links && <Links>
-                  Enjoy it on{" "}
-                  {links.map((link, index) => {
-                    const { text, url } = link
+                {links && (
+                  <Links>
+                    Enjoy it on{" "}
+                    {links.map((link, index) => {
+                      const { text, url } = link
 
-                    return (
-                      <span key={index}>
-                        <a href={url} target="_blank" rel="noopener noreferrer">
-                          {text}
-                        </a>
-                        {index < links.length - 2 && <>, </>}
-                        {index === links.length - 2 && <> or </>}
-                      </span>
-                    )
-                  })}
-                  .
-                </Links>}
+                      return (
+                        <span key={index}>
+                          <a
+                            href={url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                          >
+                            {text}
+                          </a>
+                          {index < links.length - 2 && <>, </>}
+                          {index === links.length - 2 && <> or </>}
+                        </span>
+                      )
+                    })}
+                    .
+                  </Links>
+                )}
 
-                {md &&
+                {md && (
                   <ReadMore>
                     <Link to={`/blog/post/${createSlug(title)}`} rel="stop">
                       read more
-                      </Link>
+                    </Link>
                   </ReadMore>
-                }
+                )}
               </Entry>
             )
           })}

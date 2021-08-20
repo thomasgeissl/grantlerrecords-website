@@ -1,3 +1,9 @@
+const createSlug = Text => {
+  return Text.toLowerCase()
+    .replace(/ /g, "-")
+    .replace(/[^\w-]+/g, "")
+}
+
 module.exports = {
   pathPrefix: "/grantlerrecords-website",
   siteMetadata: {
@@ -32,8 +38,10 @@ module.exports = {
                     author: "grantler records",
                     description: edge.node.description,
                     date: edge.node.date,
-                    url: "https://grantlerrecords.com/blog",
-                    guid: encodeURI(`${edge.node.date}_${edge.node.title}`),
+                    url:
+                      site.siteMetadata.siteUrl + create_slug(edge.node.title),
+                    guid:
+                      site.siteMetadata.siteUrl + create_slug(edge.node.title),
                   }
                 )
               })
