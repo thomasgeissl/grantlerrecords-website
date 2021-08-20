@@ -9,6 +9,7 @@ module.exports = {
   siteMetadata: {
     title: `grantler records`,
     description: `a home for direct, imperfect and honest music.`,
+    siteUrl: `https://grantlerrecords.com`,
     keywords: ["grantler", "music", "label", "diy", "blog", "soundsystem"],
     author: `grantler records`,
     image: `/logo.png`,
@@ -40,9 +41,13 @@ module.exports = {
                     description: edge.node.description,
                     date: edge.node.date,
                     url:
-                      site.siteMetadata.siteUrl + createSlug(edge.node.title),
+                      site.siteMetadata.siteUrl +
+                      "/blog/post/" +
+                      createSlug(edge.node.title),
                     guid:
-                      site.siteMetadata.siteUrl + createSlug(edge.node.title),
+                      site.siteMetadata.siteUrl +
+                      "/blog/post/" +
+                      createSlug(edge.node.title),
                   }
                 )
               })
