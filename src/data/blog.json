@@ -1,5 +1,47 @@
 [
   {
+    "title": "Efterklang - Windflowers",
+    "date": "2021/10/08",
+    "youtube": "2zv5V6wTE1g",
+    "description": "the Danish trio Efterklang released a new nine track lp.",
+    "release": "Windflowers was released on <a href=\"https://cityslang.com/\" target=\"_blank\">City Slang</a> on October 8, 2021.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/2rmhpknKNcy727O1kh8lU2?si=idOZwwQiTZuJJjmkVKhtLA&dl_branch=1"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://efterklang.bandcamp.com/album/windflowers"
+      },
+      {
+        "text": "somewhere else",
+        "url": "https://efterklang.lnk.to/windflowers"
+      }
+    ]
+  },
+  {
+    "title": "Sufjan Stevens & Angelo De Augustine - A Beginner's Mind",
+    "date": "2021/09/24",
+    "youtube": "00f2kSnIxfw",
+    "description": "Sufjan Stevens <3.",
+    "release": "A Beginner's Mind was released on <a href=\"https://asthmatickitty.com/\" target=\"_blank\">Asthmatic Kitty</a> on September 24, 2021.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/7AS9VaIdnYSR13T3vkVtu9?si=MHeSZB3WTdC4IUGLiNoWxA&dl_branch=1"
+      },
+      {
+        "text": "youtube",
+        "url": "https://www.youtube.com/watch?v=tiY8xZJu2_c"
+      },
+      {
+        "text": "somewhere else",
+        "url": "https://sufjanangelo.ffm.to/a-beginners-mind"
+      }
+    ]
+  },
+  {
     "title": "Robert Levon Been - The Card Counter",
     "date": "2021/09/14",
     "youtube": "bjmuy1WMm5Q",
