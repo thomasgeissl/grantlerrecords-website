@@ -1,5 +1,74 @@
 [
   {
+    "title": "Blanche Biau - Maraudé",
+    "date": "2021/12/17",
+    "youtube": "90MnIygkCGY",
+    "description": "a debut album from a Zurich based solo project, influenced by 80s wave and post punk.",
+    "release": "Maraudé was self-released on December 13, 2021.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/7BaIzWjX33E4nqBxH2lGue?si=DwZn07evRZmVIOxa40urzw"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://blanchebiau.bandcamp.com/album/maraud"
+      }
+      
+    ]
+  },
+  {
+    "title": "Fabrizio Paterlini - The Studio Sessions",
+    "date": "2021/12/17",
+    "youtube": "",
+    "description": "Fabrizio Paterlini released a new collection of ten piano songs",
+    "release": "The Studio Sessions was released on <a href=\"https://www.memoryrecordings.eu/\" target=\"_blank\">Memory Recordings</a> on December 17, 2021.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/2OEVlYjZfNtjOmvr9ecNEy?si=t3btLsiTRSmbl9ziL6hIZQ"
+      }
+    ]
+  },
+  {
+    "title": "Nils Frahm - Old Friends, New Friends",
+    "date": "2021/12/17",
+    "youtube": "ImM8OprqyC8",
+    "description": "23 new piano pieces by Nils Frahm.",
+    "release": "Old Friends, New Friends was released on <a href=\"https://leiter-verlag.com\" target=\"_blank\">Leiter Verlag</a> on November 26, 2021.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/1Urrycrm9pFy2F3xSoQ3fj?si=7zp5SjQET6exCysM-7XhPw"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://nilsfrahm.bandcamp.com/album/old-friends-new-friends"
+      },
+      {
+        "text": "somewhere else",
+        "url": "https://leiter.lnk.to/LateID"
+      }
+    ]
+  },
+  {
+    "title": "Rival Consoles - Overflow",
+    "date": "2021/12/17",
+    "youtube": "27QqChYNNuQ",
+    "description": "Rival Consoles (Ryan Lee West) released a new 13 track lp. he by the way was Erased Tapes' first signing.",
+    "release": "Overflow was released on <a href=\"https://www.erasedtapes.com/\" target=\"_blank\">Erased Tapes</a> on May 28, 2021.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/091dnUcBWWE8YXH340kf9Z?si=o5dRTT7ITtqqIVpxEFRchQ"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://rivalconsoles.bandcamp.com/album/overflow"
+      }
+    ]
+  },
+  {
     "title": "The KVB - Unity",
     "date": "2021/11/27",
     "youtube": "RPFbVQx_iYE",
