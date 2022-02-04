@@ -1,4 +1,61 @@
 [
+
+
+  {
+    "title": "Animal Collective - Time Skiffs",
+    "date": "2022/2/4",
+    "youtube": "A5iJ9wt4paY",
+    "description": "Animal Collective!",
+    "release": "Time Skiffs was released on <a href=\"https://www.dominomusic.com/\" target=\"_blank\">Domino</a> on February 4, 2022.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/6GfYRMD52msi3dHjnGpOWv?si=ZraQWOxVS4WWWuoR74Idrw"
+      },
+      {
+        "text": "somewhere else",
+        "url": "https://anco.ffm.to/timeskiffs"
+      }
+    ]
+  },
+  {
+    "title": "Mitski - Laurel Hell",
+    "date": "2022/2/4",
+    "youtube": "LmXFF_whkVk",
+    "description": "some 80s vibes on Mitski's sixth album.",
+    "release": "Laurel Hell was released on <a href=\"https://deadoceans.com/\" target=\"_blank\">Dead Oceans</a> on February 4, 2022.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/4rcinMUHEWOxpIwJo2sf22?si=yFK_VHlNT_6eExWj62lKhw"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://mitski.bandcamp.com/album/laurel-hell"
+      },
+      {
+        "text": "somewhere else",
+        "url": "https://mitski.deadoc.co/the-only-heartbreaker"
+      }
+    ]
+  },
+  {
+    "title": "The Slow Show - STILL LIFE",
+    "date": "2022/2/4",
+    "youtube": "JcJsOfC0UDg",
+    "description": "Manchester based The Slow Show released their foruth album.",
+    "release": "STILL LIFE was released on <a href=\"https://www.pias.com/\" target=\"_blank\">PIAS</a> on February 4, 2022.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/2AN28k694yRNE7V0vHbS24?si=tntw_GoQQW-CL2Bvb1gO7w"
+      },
+      {
+        "text": "somewhere else",
+        "url": "https://tss.ffm.to/stilllife.owe"
+      }
+    ]
+  },
   {
     "title": "Tocotronic - Nie wieder Krieg",
     "date": "2022/2/1",
