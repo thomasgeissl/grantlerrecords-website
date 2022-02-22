@@ -1,6 +1,46 @@
 [
-
-
+  {
+    "title": "Hurray For The Riff Raff - LIVE ON EARTH",
+    "date": "2022/2/21",
+    "youtube": "alpbVipGEjA",
+    "description": "UPPERCASE nature punk from New Orleans.",
+    "release": "LIFE ON EARTH was released on <a href=\"https://www.nonesuch.com/\" target=\"_blank\">Nonesuch Records</a> on February 18, 2022.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/5oHaiGt9cgATxsrv409jP3?si=pHPHCzNPRSS114jPVTq1zg"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://hftrr.bandcamp.com/album/life-on-earth"
+      },
+      {
+        "text": "somewhere else",
+        "url": "https://hurrayfortheriffraff.lnk.to/LIFEONEARTH"
+      }
+    ]
+  },
+  {
+    "title": "Big Thief - Dragon New Warm Mountain I Believe In You",
+    "date": "2022/2/12",
+    "youtube": "v1eypolupH0",
+    "description": "NY based indie-folk band Big Thief released a new 20 song lp. it is their fifth album.",
+    "release": "Dragon New Warm Mountain I Believe In You was released on <a href=\"https://4ad.com/\" target=\"_blank\">4AD</a> on February 10, 2022.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/7Ln81p86r5cCsesd3KBWIY?si=_QkPX3chR5K72Z7nGeMqKQ"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://bigthief.bandcamp.com/album/dragon-new-warm-mountain-i-believe-in-you"
+      },
+      {
+        "text": "somewhere else",
+        "url": "https://bigthief.ffm.to/dnwmibiy"
+      }
+    ]
+  },
   {
     "title": "Animal Collective - Time Skiffs",
     "date": "2022/2/4",
