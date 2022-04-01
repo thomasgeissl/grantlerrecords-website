@@ -1,6 +1,22 @@
 [
   {
-    "title": "",
+    "title": "piano day 2022",
+    "date": "2022/3/30",
+    "youtube": "gI93MaSewJ0",
+    "description": "happy belated piano day 2022!",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/playlist/2v022joEJ1ZUPi99NHDVNm?si=mmT4rDchTzW60KC3lsTksQ&nd=1"
+      },
+      {
+        "text": "soundcloud",
+        "url": "https://soundcloud.com/nils_frahm/sets/piano-day-2022-playlist"
+      }
+    ]
+  },
+  {
+    "title": "Helios - Covers",
     "date": "2022/3/28",
     "description": "Helios (Keith Kenniff) released new covers of some 80s songs via bandcamp.",
     "links": [
@@ -54,7 +70,7 @@
   },
   {
     "title": "Black Sea Dahu - I Am My Mother",
-    "date": "2022/2/25",
+    "date": "2022/3/25",
     "youtube": "R3ClZI3-E3g",
     "description": "the Swiss band Black Sea Dahu with songwriter and guitarist Janine Cathrein release their second album. another masterpiece after their 2018 debug White Creatures.",
     "release": "I Am My Mother was released on <a href=\"https://www.mouthwateringrecords.com/\" target=\"_blank\">Mouth Watering Records</a> on February 25, 2022.",
