@@ -7,7 +7,7 @@ export default () => (
     <SEO title="soundsystem" />
     <h1>soundsystem</h1>
     as a dj collective we spin vinyls in the bars of munich. we play a mix of
-    post punk, shoegaze, dreampop, new wave and everything in between. <br></br>
+    post punk, shoegaze, dreampop, new wave, neoclassical music and everything in between. <br></br>
     flyers are posted regularly on our{" "}
     <a
       target="_blank"
