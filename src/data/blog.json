@@ -1,5 +1,98 @@
 [
   {
+    "title": "Cling - Cling",
+    "date": "2022/8/29",
+    "youtube": "xuIoJvCRrg4",
+    "description": "some new dreamy shoegazy tunes by cling.",
+    "release": "Cling was released on tape via <a href=\"https://strangedaisyrecords.com/\" target=\"_blank\">Strange Daisy Records </a> on August 26, 2022.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/5XZuitwsOAzuebb6oe1MN8?si=eYaNYO9mRjyObr-ucX4evQ"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://clingx.bandcamp.com/album/cling"
+      }
+    ]
+  },
+  {
+    "title": "Ezra Furman - All Of Us Flames",
+    "date": "2022/8/29",
+    "youtube": "sqUTcb368kM",
+    "description": "",
+    "release": "All Of Us Flames was released on <a href=\"https://bellaunion.com/\" target=\"_blank\">Bella Union</a> on August 26, 2022.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/2KTQDiz3rmivOSbzLPbjTn?si=6fxrJfiEQWmOe4FXL91Pyw"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://ezrafurman.bandcamp.com/album/all-of-us-flames"
+      }
+    ]
+  },
+  {
+    "title": "Pantha Du Prince - Garden Gaia",
+    "date": "2022/8/29",
+    "youtube": "McklIlriCe8",
+    "description": "Pantha Du Prince (Hendrik Weber) released a new album titled Garden Gaia, it is the third concept album of his series Humans As Nature.",
+    "release": "Garden Gaia was released on <a href=\"https://modernrecordings.de/\" target=\"_blank\">Modern Recordings</a> on August 26, 2022.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/1DgRx1LvQ06RX992m1yn5m?si=WdGKFQ98TmyTUpqnv3s_sg"
+      },
+      {
+        "text": "somewhere else",
+        "url": "https://panthaduprince.lnk.to/GardenGaia"
+      }
+    ]
+  },
+  {
+    "title": "Florist - Florist",
+    "date": "2022/8/29",
+    "youtube": "zQ_MxJapZtI",
+    "description": "NY based band Florist released their forth album, a 19 track lp titled Florist.",
+    "release": "Florist was released on <a href=\"https://dbldblwhmmy.com/\" target=\"_blank\">Double Double Whammy Records</a> on July 29, 2022.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/7EvfFPMMvMJ20olfdEkPBR?si=1QKmwKWkQcGySFzo2rbBFw"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://florist.bandcamp.com/album/florist"
+      },
+      {
+        "text": "youtube",
+        "url": "https://www.youtube.com/watch?v=Q8hPyqZuTk4"
+      }
+    ]
+  },
+  {
+    "title": "Cosmos in Collision - Constellations",
+    "date": "2022/7/7",
+    "youtube": "AofvNRUlz-8",
+    "description": "Constellations is the second full length release composed, played and produced by Riccardo Spaggiari.",
+    "release": "Constellations was released on <a href=\"https://shorediverecords.bandcamp.com//\" target=\"_blank\">Shore Dive Records</a> on June 11, 2022.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/4ktE8coKTZnOlHgl4CAp5j?si=FFQuWE8oQnW44lgIpz3IzA"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://shorediverecords.bandcamp.com/album/constellations"
+      },
+      {
+        "text": "youtube",
+        "url": "https://www.youtube.com/watch?v=AofvNRUlz-8"
+      }
+    ]
+  },
+  {
     "title": "Minru - Liminality",
     "date": "2022/7/4",
     "youtube": "",
@@ -9,6 +102,10 @@
       {
         "text": "spotify",
         "url": "https://open.spotify.com/album/35b5EStxb2BkZnfyJr2CiR?si=_n_pwu63T1mYgDXyXp8Ydw"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://minrumusic.bandcamp.com/album/liminality"
       }
     ]
   },
