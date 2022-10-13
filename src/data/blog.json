@@ -1,5 +1,39 @@
 [
   {
+    "title": "Alvvays - Blue Rev",
+    "date": "2022/10/7",
+    "youtube": "YVJ0ZKYu-GI",
+    "description": "Toronoto-based band Alvvays released their third studio album.",
+    "release": "Blue Rev was released on <a href=\"http://www.transgressiverecords.com//\" target=\"_blank\">Transgressive</a> on October 7, 2022.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/5ifRlHZX33kTfE5kb1Cpf1?si=SayikCsSRjOufe2_-Et-ZA"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://alvvays.bandcamp.com/album/blue-rev"
+      }
+    ]
+  },
+  {
+    "title": "Broken Bells - INTO THE BLUE",
+    "date": "2022/10/7",
+    "youtube": "SLOr7G0ZM4M",
+    "description": "after eight years and several single releases, Broken Bells just released a new nine track lp.",
+    "release": "INTO THE BLUE was released on <a href=\"https://www.awal.com/\" target=\"_blank\">Awal</a> on October 7, 2022.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/2CKqapMPL6O0T8cqvFmyVz?si=rl4YfnC1R-m0LEmrNHUafg"
+      },
+      {
+        "text": "somewhere else",
+        "url": "https://brokenbells.ffm.to/INTOTHEBLUE"
+      }
+    ]
+  },
+  {
     "title": "Nils Frahm - Music for Animals",
     "date": "2022/9/23",
     "youtube": "bkdhOnaGA6M",
