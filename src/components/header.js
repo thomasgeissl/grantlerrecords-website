@@ -74,6 +74,9 @@ export default () => {
           <Link to="/artists">artists</Link>
         </Item>
         <Item>
+          <Link to="/gigs">gigs</Link>
+        </Item>
+        <Item>
           <Link to="/blog">blog</Link>
         </Item>
       </Menu>
