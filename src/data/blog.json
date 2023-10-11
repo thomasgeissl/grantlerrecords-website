@@ -1,5 +1,87 @@
 [
   {
+    "title": "Dramamine - Dreamcatcher",
+    "date": "2023/10/11",
+    "youtube": "1IF3p848vZ0",
+    "description": "some new dreamy, shoegazy sounds by Dramamine.",
+    "release": "Dreamcatcher was released on October 6, 2023.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/58SdfgWDi7Iniyakyc1Ca2?si=wSsALO1aSA2QpHC5vo5g1w"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://dramamine1.bandcamp.com/album/dreamcatcher"
+      }
+    ]
+  },
+  {
+    "title": "Wilco - Cousin",
+    "date": "2023/10/11",
+    "youtube": "WhmMb5jKItY",
+    "description": "studio album number 13!",
+    "release": "Cousin was released on <a href=\"https://dbpmrecords.com/\" target=\"_blank\">dBpm Records-</a> on September 29, 2023.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/1KZy1Oll0Cnnakyy6X92Wn?si=vCWX10DlQFGeATn1qUMAMA"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://wilcohq.bandcamp.com/album/cousin"
+      }
+    ]
+  },
+  {
+    "title": "Slow Pulp - Yard",
+    "date": "2023/10/11",
+    "youtube": "EAvEwUYPAOA",
+    "description": "Chicago based Slow Pulp release their second LP.",
+    "release": "Yard was released through <a href=\"https://www.anti.com/\" target=\"_blank\">Anti-</a> on September 29, 2023.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/1KHEiLyeBq82jCqzllcXu9?si=yjVeev0KRHOq1IaEdiqdGg"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://slowpulp.bandcamp.com/album/yard"
+      },
+      {
+        "text": "somewhere else",
+        "url": "https://slowpulp.ffm.to/store"
+      }
+    ]
+  },
+  {
+    "title": "Sufjan Stevens - Javelin",
+    "date": "2023/10/11",
+    "youtube": "OLeCIRC4taY",
+    "description": "Sufjn Steves is back with his tenth studio album.",
+    "release": "Javelin was released on <a href=\"https://asthmatickitty.com/\" target=\"_blank\">Asthmatic Kitty</a> on October 8, 2023.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/2KqSL3vLfyVO7rrZJL9tUs?si=8DoUl4W9QsyCqMLAJ0NOTg"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://sufjanstevens.bandcamp.com/album/javelin"
+      },
+      {
+        "text": "somewhere else",
+        "url": "https://sufjanstevens.lnk.to/javelin"
+      }
+    ]
+  },
+  {
+    "title": "grantler blog - we are back",
+    "date": "2023/10/11",
+    "description": "sorry, the grantler blog has been enjoying the silence.",
+    "links": []
+  },
+  {
     "title": "Anna Arrobas - Made to Touch",
     "date": "2022/10/28",
     "youtube": "URPZ0cWKT6k",
@@ -1073,7 +1155,6 @@
         "text": "somewhere else",
         "url": "https://beachhouse.ffm.to/oncetwicemelodyeurope"
       }
-      
     ]
   },
   {
@@ -1095,7 +1176,6 @@
         "text": "somewhere elsee",
         "url": "https://ffm.to/da_tntftmpts"
       }
-      
     ]
   },
   {

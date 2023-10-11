@@ -225,7 +225,7 @@ export default class Blog extends React.Component {
                 <Release
                   dangerouslySetInnerHTML={{ __html: release }}
                 ></Release>
-                {links && (
+                {links && links.length > 0 && (
                   <Links>
                     Enjoy it on{" "}
                     {links.map((link, index) => {
