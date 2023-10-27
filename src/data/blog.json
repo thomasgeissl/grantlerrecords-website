@@ -1,10 +1,65 @@
 [
   {
+    "title": "Sun June - Bad Dream Jaguar",
+    "date": "2023/10/27",
+    "youtube": "7NErWX5kpps",
+    "description": "Austin-based Sun June release a new LP.",
+    "release": "Bad Dream Jaguar was released on <a href=\"https://runforcoverrecords.com/\" target=\"_blank\">Run For Cover</a> on October 20, 2023.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/5nvtiWjPKNqJNqDNtk6Zg1?si=FCT7QqZoQEu_m8NrW1x16g"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://sunjune.bandcamp.com/album/bad-dream-jaguar"
+      },
+      {
+        "text": "youtube",
+        "url": "https://youtu.be/tONP2kWNCkE?feature=shared"
+      }
+    ]
+  },
+  {
+    "title": "The Kills - God Games",
+    "date": "2023/10/27",
+    "youtube": "AQae2qOXCq0",
+    "description": "7 years after the last lp, the Kills are now back with God Games.",
+    "release": "God Games was released on <a href=\"https://www.dominomusic.com/\" target=\"_blank\">Domino</a> on October 27, 2023.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/5foItJB5J4HL2Iim9BHpfk?si=39Ea9B0QRDaX1lGbZ4JhIA"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://thekills.bandcamp.com/album/god-games"
+      }
+    ]
+  },
+  {
+    "title": "Ariel Void - Beginning of Silence",
+    "date": "2023/10/27",
+    "youtube": "X9Q-XOc6Cs4",
+    "description": "shoegaze/dreampop duo Ariel Void from Fortaleza/Brazil release their first EP.",
+    "release": "Beginning of Silence was released on October 14, 2023.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/1ouQe3QUshrUgORTEexBdx?si=X2vngkzDTqagG_YTUmVvRQ"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://arielv0id.bandcamp.com/album/beginning-of-silence"
+      }
+    ]
+  },
+  {
     "title": "Illuminine - #4",
     "date": "2023/10/20",
     "youtube": "Ey8flNywzSs",
     "description": "Illuminine is Kevin lmbrecht from Belgium. he released his fourth lp that he wrote, produced and mixed on his own.",
-    "release": "#4 was released on <a href=\"\" target=\"_blank\"></a> on October 20, 2023.",
+    "release": "#4 was released on <a href=\"https://www.bluemarble.blue/\" target=\"_blank\">Black Marble</a> on October 20, 2023.",
     "links": [
       {
         "text": "spotify",
