@@ -21,6 +21,23 @@
     ]
   },
   {
+    "title": "The Mountain Goats - Jenny from Thebes",
+    "date": "2023/10/27",
+    "youtube": "f82sm6baB-s",
+    "description": "a new album of the Mountain Goats has been released.",
+    "release": "Jenny from Thebes was released on <a href=\"https://www.mergerecords.com/\" target=\"_blank\">Merge</a> on October 27, 2023.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/7Apt3HIcgBQymESPCzQuGT?si=XKVea5xQT-q4nt3Yv2bGcw"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://themountaingoats.bandcamp.com/album/jenny-from-thebes"
+      }
+    ]
+  },
+  {
     "title": "The Kills - God Games",
     "date": "2023/10/27",
     "youtube": "AQae2qOXCq0",
