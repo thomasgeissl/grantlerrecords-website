@@ -58,31 +58,33 @@ export default () => {
         const { title, date, description, youtube, links } = node
         return (
           <li key={index}>
-              <h2>{title}</h2>
-              <Meta date={date}></Meta>
+            <h2>{title}</h2>
+            <Meta date={date}></Meta>
             {youtube && (
               <div>
-                  <Video className="video" youtube={youtube}></Video>
+                <Video className="video" youtube={youtube}></Video>
               </div>
-                )}
-                <Description>{description}</Description>
-                {links && <Links>
-                  Enjoy it on{" "}
-                  {links.map((link, index) => {
-                    const { text, url } = link
+            )}
+            <Description>{description}</Description>
+            {links && links.length > 0 && (
+              <Links>
+                Enjoy it on{" "}
+                {links.map((link, index) => {
+                  const { text, url } = link
 
-                    return (
-                      <span key={index}>
-                        <a href={url} target="_blank" rel="noopener noreferrer">
-                          {text}
-                        </a>
-                        {index < links.length - 2 && <>, </>}
-                        {index === links.length - 2 && <> or </>}
-                      </span>
-                    )
-                  })}
-                  .
-                </Links>}
+                  return (
+                    <span key={index}>
+                      <a href={url} target="_blank" rel="noopener noreferrer">
+                        {text}
+                      </a>
+                      {index < links.length - 2 && <>, </>}
+                      {index === links.length - 2 && <> or </>}
+                    </span>
+                  )
+                })}
+                .
+              </Links>
+            )}
           </li>
         )
       })}
