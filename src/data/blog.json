@@ -1,5 +1,39 @@
 [
   {
+    "title": "Beirut - Hadsel",
+    "date": "2023/11/17",
+    "youtube": "vvSUMXU5ziU",
+    "description": "Zach Condon released a new album, recorded in Hadsel in north Norway. pump organs, church organs, ukulele and modular synths <3. a very touching interview can be found <a href=\"https://www.youtube.com/watch?v=ATPRaocX49c\">here</a>.",
+    "release": "Hadsel was released on his own label Pompeii Records on November 10th, 2023.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/3kFHbtO7sXrjVlsfDhi8Ah?si=vvcqL-RPRj-6HJCcgzChjw"
+      },
+      {
+        "text": "youtube",
+        "url": "https://www.youtube.com/watch?v=y94jocZycAE"
+      }
+    ]
+  }, 
+  {
+    "title": "Spencer Zahn - Statues II",
+    "date": "2023/11/17",
+    "youtube": "vf7bsBlsX2o",
+    "description": "Brooklyn-based Spencer Zahn released Statues II, the companion piece of a double album which stared with Statues I in August this year.",
+    "release": "Statues II was released on November 17, 2023.",
+    "links": [
+      {
+        "text": "spotify",
+        "url": "https://open.spotify.com/album/3kFHbtO7sXrjVlsfDhi8Ah?si=vvcqL-RPRj-6HJCcgzChjw"
+      },
+      {
+        "text": "bandcamp",
+        "url": "https://spencerzahn.bandcamp.com/album/statues-ii"
+      }
+    ]
+  }, 
+  {
     "title": "Austin Farwell - Piano Poetry",
     "date": "2023/11/12",
     "youtube": "2_LalDztz1k",
