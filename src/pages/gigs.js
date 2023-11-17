@@ -17,7 +17,7 @@ const PastContainer = styled.div`
 
 export default () => (
   <Layout>
-    <SEO title="soundsystem" />
+    <SEO title="gigs" />
     <Container>
       <h1>gigs</h1>
       <h2>upcoming</h2>
