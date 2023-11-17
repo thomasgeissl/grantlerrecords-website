@@ -39,7 +39,7 @@ export default () => (
           >
             Lens Arc
           </a>
-          ,<a href={"https://bedouintemple.bandcamp.com/"}>Bedouin Temple</a>
+          , <a href={"https://bedouintemple.bandcamp.com/"}>Bedouin Temple</a>
           <br />
           at{" "}
           <a
