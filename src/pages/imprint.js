@@ -11,7 +11,6 @@ export default () => (
     Kapuzinerplatz 2 <br></br>
     80337 München <br></br>
     Germany<br></br>
-    +49 15730610377 <br></br>
     info@grantlerrecords.de
     <h2>Haftung für Inhalte</h2>
     <p>
