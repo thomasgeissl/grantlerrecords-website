@@ -7,7 +7,7 @@ const Container = styled.div`
   ul {
     list-style-type: none;
     li {
-      margin-bottom: 32px;
+      margin-bottom: 48px;
     }
   }
 `
@@ -22,63 +22,64 @@ export default () => (
       <h1>gigs</h1>
       <h2>upcoming</h2>
       <ul>
-        <li>
-          December 14th, 2023:{" "}
-          <a
-            href={"https://paarmusic.bandcamp.com/music"}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            PAAR
-          </a>
-          ,{" "}
-          <a
-            href={"https://lensarc.bandcamp.com/"}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Lens Arc
-          </a>
-          , <a href={"https://bedouintemple.bandcamp.com/"}>Bedouin Temple</a>
-          <br />
-          at{" "}
-          <a
-            href="https://import-export.cc/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Import Export
-          </a>
-          ,{" "}
-          <a
-            href="https://t.rausgegangen.de/tickets/paar-lens-arc-bedouin-temple"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            tickets
-          </a>
-          <br />
-          <a
-            href={
-              "https://import-export.cc/event/grantler-gigs-pres-paar-lens-arc-bedouin-temple/"
-            }
-            target={"_blank"}
-            rel={"noopener noreferrer"}
-          >
-            <img
-              width={"50%"}
-              src={"/images/gigs/231022_fb.jpg"}
-              alt={
-                "poster of the event showing a grantler and the names of the bands as well as date and location"
-              }
-              style={{ marginTop: "24px" }}
-            ></img>
-          </a>
-        </li>
+        <li>tba</li>
       </ul>
       <PastContainer>
         <h2>past</h2>
         <ul>
+          <li>
+            December 14th, 2023:{" "}
+            <a
+              href={"https://paarmusic.bandcamp.com/music"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              PAAR
+            </a>
+            ,{" "}
+            <a
+              href={"https://lensarc.bandcamp.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Lens Arc
+            </a>
+            , <a href={"https://bedouintemple.bandcamp.com/"}>Bedouin Temple</a>
+            <br />
+            at{" "}
+            <a
+              href="https://import-export.cc/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Import Export
+            </a>
+            ,{" "}
+            <a
+              href="https://t.rausgegangen.de/tickets/paar-lens-arc-bedouin-temple"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              tickets
+            </a>
+            <br />
+            <a
+              href={
+                "https://import-export.cc/event/grantler-gigs-pres-paar-lens-arc-bedouin-temple/"
+              }
+              target={"_blank"}
+              rel={"noopener noreferrer"}
+            >
+              <img
+                width={"50%"}
+                src={"/images/gigs/231022_fb.jpg"}
+                alt={
+                  "poster of the event showing a grantler and the names of the bands as well as date and location"
+                }
+                style={{ marginTop: "24px" }}
+              ></img>
+            </a>
+          </li>
           <li>
             April 14th, 2023: avril 14th - an hommage to Aphex Twin<br></br>
             <a
