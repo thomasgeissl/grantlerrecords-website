@@ -22,6 +22,7 @@ const Container = styled.ul`
   }
   li {
     list-style-type: none;
+    margin-bottom: 64px;
     h2 {
       margin-bottom: 5px;
     }
@@ -42,6 +43,7 @@ export default () => {
             description
             title
             youtube
+            image
             links {
               text
               url
@@ -55,7 +57,7 @@ export default () => {
     <Container>
       {data.allNewsJson.edges.map((post, index) => {
         const { node } = post
-        const { title, date, description, youtube, links } = node
+        const { title, date, description, youtube, links, image } = node
         return (
           <li key={index}>
             <h2>{title}</h2>
@@ -65,6 +67,7 @@ export default () => {
                 <Video className="video" youtube={youtube}></Video>
               </div>
             )}
+            {image && <img src={image} alt="cover of release" width="50%"></img>}
             <Description>{description}</Description>
             {links && links.length > 0 && (
               <Links>

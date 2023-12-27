@@ -1,5 +1,17 @@
 [
   {
+    "title": "New Release: Grantsalat 1",
+    "date": "2023/12/27",
+    "description": "we are happy to announce the release of Grantsalat 1. it is available as download and on recycled audio cassettes. each of them is a handcrafted unique piece filled with music from people who often recorded it with limited resources and a lot of passion",
+    "image": "images/releases/grantsalat1/cover.jpg",
+    "links": [
+      {
+        "text": "bandcamp",
+        "url": "https://grantlerrecords.bandcamp.com/"
+      }
+    ]
+  },
+  {
     "title": "silent sex - ouvertuere in e moll",
     "date": "2023/01/13",
     "description": "silent sex will play a live coding set today at the end of the future at stadtwerkstatt linz.",
