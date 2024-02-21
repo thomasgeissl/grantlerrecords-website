@@ -30,8 +30,8 @@ export default () => (
             rel="noopener noreferrer"
           >
             Ben Wesch
-          </a>
-          at {" "}
+          </a>{" "}
+          at{" "}
           <a
             href="https://www.instagram.com/favoritbar0/"
             target="_blank"
@@ -43,7 +43,7 @@ export default () => (
             width={"50%"}
             src={"/images/gigs/ben_wesch_ig_post_resized.png"}
             alt={
-              "poster of the event showing a grantler and the names of the bands as well as date and location"
+              "poster of the event showing the artist with his oud as well as date and location"
             }
             style={{ marginTop: "24px" }}
           ></img>
