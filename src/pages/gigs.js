@@ -39,6 +39,7 @@ export default () => (
           >
             Favorit Bar
           </a>
+          <br />
           <img
             width={"50%"}
             src={"/images/gigs/ben_wesch_ig_post_resized.png"}
