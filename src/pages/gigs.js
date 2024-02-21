@@ -22,7 +22,32 @@ export default () => (
       <h1>gigs</h1>
       <h2>upcoming</h2>
       <ul>
-        <li>tba</li>
+        <li>
+          March 6th, 2024:{" "}
+          <a
+            href={"https://www.instagram.com/ben_wesch/"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Ben Wesch
+          </a>
+          at{" "}
+          <a
+            href="https://www.instagram.com/favoritbar0/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Favorit Bar
+          </a>
+          {/* <img
+            width={"50%"}
+            src={"/images/gigs/231022_fb.jpg"}
+            alt={
+              "poster of the event showing a grantler and the names of the bands as well as date and location"
+            }
+            style={{ marginTop: "24px" }}
+          ></img> */}
+        </li>
       </ul>
       <PastContainer>
         <h2>past</h2>
