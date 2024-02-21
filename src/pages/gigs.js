@@ -41,7 +41,7 @@ export default () => (
           </a>
           <img
             width={"50%"}
-            src={"/images/gigs/ben_wesch_ig_post_resized.jpg"}
+            src={"/images/gigs/ben_wesch_ig_post_resized.png"}
             alt={
               "poster of the event showing a grantler and the names of the bands as well as date and location"
             }
