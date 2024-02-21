@@ -31,7 +31,7 @@ export default () => (
           >
             Ben Wesch
           </a>
-          at{" "}
+          at {" "}
           <a
             href="https://www.instagram.com/favoritbar0/"
             target="_blank"
@@ -39,14 +39,14 @@ export default () => (
           >
             Favorit Bar
           </a>
-          {/* <img
+          <img
             width={"50%"}
-            src={"/images/gigs/231022_fb.jpg"}
+            src={"/images/gigs/ben_wesch_ig_post_resized.jpg"}
             alt={
               "poster of the event showing a grantler and the names of the bands as well as date and location"
             }
             style={{ marginTop: "24px" }}
-          ></img> */}
+          ></img>
         </li>
       </ul>
       <PastContainer>
