@@ -23,36 +23,56 @@ export default () => (
       <h2>upcoming</h2>
       <ul>
         <li>
-          March 6th, 2024:{" "}
+          June 13th, 2024:{" "}
           <a
-            href={"https://www.instagram.com/ben_wesch/"}
+            href={"https://www.instagram.com/rhinosdream/"}
             target="_blank"
             rel="noopener noreferrer"
           >
-            Ben Wesch
+            you c
           </a>{" "}
-          at{" "}
-          <a
-            href="https://www.instagram.com/favoritbar0/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Favorit Bar
-          </a>
-          <br />
-          <img
+          at{" "}tba
+          {/* <br /> */}
+          {/* <img
             width={"33%"}
             src={"/images/gigs/ben_wesch_ig_post_resized.png"}
             alt={
               "poster of the event showing the artist with his oud as well as date and location"
             }
             style={{ marginTop: "24px" }}
-          ></img>
+          ></img> */}
         </li>
       </ul>
       <PastContainer>
         <h2>past</h2>
         <ul>
+          <li>
+            March 6th, 2024:{" "}
+            <a
+              href={"https://www.instagram.com/ben_wesch/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Ben Wesch
+            </a>{" "}
+            at{" "}
+            <a
+              href="https://www.instagram.com/favoritbar0/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Favorit Bar
+            </a>
+            <br />
+            <img
+              width={"33%"}
+              src={"/images/gigs/ben_wesch_ig_post_resized.png"}
+              alt={
+                "poster of the event showing the artist with his oud as well as date and location"
+              }
+              style={{ marginTop: "24px" }}
+            ></img>
+          </li>
           <li>
             December 14th, 2023:{" "}
             <a
