@@ -7,7 +7,7 @@ const Container = styled.div`
   ul {
     list-style-type: none;
     li {
-      margin-bottom: 48px;
+      margin-bottom: 128px;
     }
   }
 `
