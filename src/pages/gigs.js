@@ -31,8 +31,8 @@ export default () => (
           >
             you c
           </a>{" "}
-          at{" "}tba
-          {/* <br /> */}
+          at{" "}Braunauer Eisenbahnbrücke
+          <br />
           <img
             width={"33%"}
             src={"/images/gigs/240613_ig_resized.jpg"}
