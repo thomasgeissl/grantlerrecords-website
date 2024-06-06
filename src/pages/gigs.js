@@ -33,14 +33,14 @@ export default () => (
           </a>{" "}
           at{" "}tba
           {/* <br /> */}
-          {/* <img
+          <img
             width={"33%"}
-            src={"/images/gigs/ben_wesch_ig_post_resized.png"}
+            src={"/images/gigs/240613_ig_resized.jpg"}
             alt={
-              "poster of the event showing the artist with his oud as well as date and location"
+              "illustrated poster of the event showing the artisst as well as date and location"
             }
             style={{ marginTop: "24px" }}
-          ></img> */}
+          ></img>
         </li>
       </ul>
       <PastContainer>
