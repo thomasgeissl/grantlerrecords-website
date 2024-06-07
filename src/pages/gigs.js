@@ -30,8 +30,29 @@ export default () => (
             rel="noopener noreferrer"
           >
             you c
-          </a>{" "}
-          at{" "}Braunauer Eisenbahnbrücke
+          </a>
+          <br />
+          <a
+            href={"https://www.finopoly.at/"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            F1no
+          </a>
+          <br></br>
+          <a
+            href={"https://theherculesandleocase.de/"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            the Hercules and Leo Case
+          </a>
+          <br></br>
+          <a href={""} target="_blank" rel="noopener noreferrer">
+            maria maria
+          </a>
+          <br></br>
+          at Braunauer Eisenbahnbrücke
           <br />
           <img
             width={"33%"}
