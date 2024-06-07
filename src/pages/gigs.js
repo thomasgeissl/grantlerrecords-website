@@ -48,7 +48,7 @@ export default () => (
             the Hercules and Leo Case
           </a>
           <br></br>
-          <a href={""} target="_blank" rel="noopener noreferrer">
+          <a href={"https://www.instagram.com/randnotiz8"} target="_blank" rel="noopener noreferrer">
             maria maria
           </a>
           <br></br>
