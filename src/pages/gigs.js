@@ -22,51 +22,56 @@ export default () => (
       <h1>gigs</h1>
       <h2>upcoming</h2>
       <ul>
-        <li>
-          June 13th, 2024:{" "}
-          <a
-            href={"https://www.instagram.com/rhinosdream/"}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            you c
-          </a>
-          <br />
-          <a
-            href={"https://www.finopoly.at/"}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            F1no
-          </a>
-          <br></br>
-          <a
-            href={"https://theherculesandleocase.de/"}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            the Hercules and Leo Case
-          </a>
-          <br></br>
-          <a href={"https://www.instagram.com/randnotiz8"} target="_blank" rel="noopener noreferrer">
-            maria maria
-          </a>
-          <br></br>
-          at Braunauer Eisenbahnbrücke
-          <br />
-          <img
-            width={"33%"}
-            src={"/images/gigs/240613_ig_resized.jpg"}
-            alt={
-              "illustrated poster of the event showing the artisst as well as date and location"
-            }
-            style={{ marginTop: "24px" }}
-          ></img>
-        </li>
+        <li>tba</li>
       </ul>
       <PastContainer>
         <h2>past</h2>
         <ul>
+          <li>
+            June 13th, 2024:{" "}
+            <a
+              href={"https://www.instagram.com/rhinosdream/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              you c
+            </a>
+            <br />
+            <a
+              href={"https://www.finopoly.at/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              F1no
+            </a>
+            <br></br>
+            <a
+              href={"https://theherculesandleocase.de/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              the Hercules and Leo Case
+            </a>
+            <br></br>
+            <a
+              href={"https://www.instagram.com/randnotiz8"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              maria maria
+            </a>
+            <br></br>
+            at Braunauer Eisenbahnbrücke
+            <br />
+            <img
+              width={"33%"}
+              src={"/images/gigs/240613_ig_resized.jpg"}
+              alt={
+                "illustrated poster of the event showing the artisst as well as date and location"
+              }
+              style={{ marginTop: "24px" }}
+            ></img>
+          </li>
           <li>
             March 6th, 2024:{" "}
             <a
