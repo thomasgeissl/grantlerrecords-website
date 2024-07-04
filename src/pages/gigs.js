@@ -29,8 +29,9 @@ export default () => (
             target="_blank"
             rel="noopener noreferrer"
           >
-            glump at Psychedelic Krautnacht at Glockenbachwerkstatt
-          </a>
+            glump
+          </a>{" "}
+          at Psychedelic Krautnacht at Glockenbachwerkstatt
           <br />
           <a
             href={
