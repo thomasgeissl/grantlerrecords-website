@@ -22,39 +22,66 @@ export default () => (
       <h1>gigs</h1>
       <h2>upcoming</h2>
       <ul>
-        <li>
-          July 18th, 2024:{" "}
-          <a
-            href={"https://www.instagram.com/glump.band/"}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            glump
-          </a>{" "}
-          at Psychedelic Krautnacht at Glockenbachwerkstatt
-          <br />
-          <a
-            href={
-              "https://www.glockenbachwerkstatt.de/events/psychedelic-krautnacht/"
-            }
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            event page and tickets
-          </a>
-          {/* <img
-            width={"33%"}
-            src={"/images/gigs/240613_ig_resized.jpg"}
-            alt={
-              "illustrated poster of the event showing the artisst as well as date and location"
-            }
-            style={{ marginTop: "24px" }}
-          ></img> */}
-        </li>
+     <li>
+            October 26th, 2024:{" "}
+            <a
+              href={"https://malomoray.bandcamp.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Malo Moray
+            </a>{" "}and <a
+              href={"https://www.instagram.com/deuxfemmesmusic/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Deux Femmes
+            </a>
+            at iRRland2
+          
+            {/* <img
+              width={"33%"}
+              src={"/images/gigs/240613_ig_resized.jpg"}
+              alt={
+                "illustrated poster of the event showing the artisst as well as date and location"
+              }
+              style={{ marginTop: "24px" }}
+            ></img> */}
+          </li>
+        
       </ul>
       <PastContainer>
         <h2>past</h2>
         <ul>
+          <li>
+            July 18th, 2024:{" "}
+            <a
+              href={"https://www.instagram.com/glump.band/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              glump
+            </a>{" "}
+            at Psychedelic Krautnacht at Glockenbachwerkstatt
+            <br />
+            <a
+              href={
+                "https://www.glockenbachwerkstatt.de/events/psychedelic-krautnacht/"
+              }
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              event page and tickets
+            </a>
+            {/* <img
+              width={"33%"}
+              src={"/images/gigs/240613_ig_resized.jpg"}
+              alt={
+                "illustrated poster of the event showing the artisst as well as date and location"
+              }
+              style={{ marginTop: "24px" }}
+            ></img> */}
+          </li>
           <li>
             June 13th, 2024:{" "}
             <a
