@@ -36,8 +36,7 @@ export default () => (
               rel="noopener noreferrer"
             >
               Deux Femmes
-            </a>
-            at iRRland2
+            </a> at iRRland2
           
             {/* <img
               width={"33%"}
