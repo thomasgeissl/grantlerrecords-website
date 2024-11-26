@@ -22,7 +22,44 @@ export default () => (
       <h1>gigs</h1>
       <h2>upcoming</h2>
       <ul>
-     <li>
+        <li>
+            January 31st, 2025:{" "}
+              Grantsalat 2 Release with <a
+              href={"https://www.instagram.com/obiblanche/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Obi Blanche & B.O.B
+            </a>{", "}
+            <a
+              href={"https://www.instagram.com/spynesmusic/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Spynes
+            </a>{", "}and <a
+              href={"https://missdrone.bandcamp.com/album/daydreamin-cool"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Miss Drone
+            </a> at Milla
+          
+            {/* <img
+              width={"33%"}
+              src={"/images/gigs/240613_ig_resized.jpg"}
+              alt={
+                "illustrated poster of the event showing the artisst as well as date and location"
+              }
+              style={{ marginTop: "24px" }}
+            ></img> */}
+          </li>
+        
+      </ul>
+      <PastContainer>
+        <h2>past</h2>
+        <ul>
+          <li>
             October 26th, 2024:{" "}
             <a
               href={"https://malomoray.bandcamp.com/"}
@@ -47,11 +84,6 @@ export default () => (
               style={{ marginTop: "24px" }}
             ></img> */}
           </li>
-        
-      </ul>
-      <PastContainer>
-        <h2>past</h2>
-        <ul>
           <li>
             July 18th, 2024:{" "}
             <a
