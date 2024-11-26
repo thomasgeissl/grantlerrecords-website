@@ -22,8 +22,7 @@ export default () => (
       <h1>gigs</h1>
       <h2>upcoming</h2>
       <ul>
-        <li>
-            January 31st, 2025:{" "}
+        <li>January 31st, 2025:{" "}
               Grantsalat 2 Release with <a
               href={"https://www.instagram.com/obiblanche/"}
               target="_blank"
