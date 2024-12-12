@@ -2,7 +2,7 @@
 id: "te_kraftwerk_autobahn"
 ---
 
-Es sind die Siebziger-Jahre. In der Bundesrepublik herrscht über weite Strecken noch die Biederkeit eines Nachkriegsdeutschlands. Viele Familien wohnen in schmucklosen Mietskasernen, mit grobem Teppich, Schrankwand und schweren Sitzmobilar. Die deutschsprachigen Hitparaden werden von gefühligem Schlager dominiert: Chris Roberts stellt fest „Du kannst nicht immer 17 sein“. Und Vicky Leandros fährt mit Theo nach Lodz.
+Es sind die Siebziger-Jahre. In der Bundesrepublik herrscht über weite Strecken noch die Biederkeit eines Nachkriegsdeutschlands. Viele Familien wohnen in schmucklosen Mietskasernen, mit grobem Teppich, Schrankwand und schwerem Sitzmobilar. Die deutschsprachigen Hitparaden werden von gefühligem Schlager dominiert: Chris Roberts stellt fest „Du kannst nicht immer 17 sein“. Und Vicky Leandros fährt mit Theo nach Lodz.
 
 Doch ein kleiner Kreis von Vordenkern arbeitet international an der Zukunft. 1972 findet die Olympiade in München in einem noch heute futuristisch anmutenden Architekturensemble statt, 1976 gründen Steve Jobs und Steve Wozniak Apple und 1977 kommt der erste Star Wars in die Kinos.
 Dieser Geist der Erneuerung treibt vor 50 Jahren auch eine ambitionierte deutsche Band namens Kraftwerk um und sie veröffentlicht 1974 ihr viertes Album: „Autobahn“.
