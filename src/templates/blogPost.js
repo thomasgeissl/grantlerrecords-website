@@ -78,7 +78,13 @@ const Image = styled.img`
 `
 
 const Description = styled.section``
-const MdDescription = styled.section`text-align: left; font-size: 1.2em; text-align: justify;`
+const MdDescription = styled.section`
+  text-align: left;
+  font-size: 1.2em;
+  @media (min-width: 768px) {
+    text-align: justify;
+  }
+`
 const Links = styled.section``
 const Release = styled.section``
 const Author = styled.section`margin-top: 24px;`
