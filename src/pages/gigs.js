@@ -44,14 +44,14 @@ export default () => (
               Miss Drone
             </a> at Milla
           
-            {/* <img
+            <img
               width={"33%"}
-              src={"/images/gigs/240613_ig_resized.jpg"}
+              src={"/images/gigs/2025-01-31_grantsalat2_programmheft_2x.png"}
               alt={
-                "illustrated poster of the event showing the artisst as well as date and location"
+                "illustrated poster of the event showing the artists as well as date and location"
               }
               style={{ marginTop: "24px" }}
-            ></img> */}
+            ></img>
           </li>
         
       </ul>
@@ -78,7 +78,7 @@ export default () => (
               width={"33%"}
               src={"/images/gigs/240613_ig_resized.jpg"}
               alt={
-                "illustrated poster of the event showing the artisst as well as date and location"
+                "illustrated poster of the event showing the artist as well as date and location"
               }
               style={{ marginTop: "24px" }}
             ></img> */}
