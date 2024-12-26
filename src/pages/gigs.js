@@ -43,7 +43,7 @@ export default () => (
             >
               Miss Drone
             </a> at Milla
-          
+            <br />
             <img
               width={"33%"}
               src={"/images/gigs/2025-01-31_grantsalat2_programmheft_2x.png"}
