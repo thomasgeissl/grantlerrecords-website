@@ -22,27 +22,37 @@ export default () => (
       <h1>gigs</h1>
       <h2>upcoming</h2>
       <ul>
-        <li>January 31st, 2025:{" "}
-              Grantsalat 2 Release with <a
+        <li>tba</li>
+      </ul>
+      <PastContainer>
+        <h2>past</h2>
+        <ul>
+          <li>
+            January 31st, 2025: Grantsalat 2 Release with{" "}
+            <a
               href={"https://www.instagram.com/obiblanche/"}
               target="_blank"
               rel="noopener noreferrer"
             >
               Obi Blanche & B.O.B
-            </a>{", "}
+            </a>
+            {", "}
             <a
               href={"https://www.instagram.com/spynesmusic/"}
               target="_blank"
               rel="noopener noreferrer"
             >
               Spynes
-            </a>{", "}and <a
+            </a>
+            {", "}and{" "}
+            <a
               href={"https://missdrone.bandcamp.com/album/daydreamin-cool"}
               target="_blank"
               rel="noopener noreferrer"
             >
               Miss Drone
-            </a> at Milla
+            </a>{" "}
+            at Milla
             <br />
             <img
               width={"33%"}
@@ -53,11 +63,6 @@ export default () => (
               style={{ marginTop: "24px" }}
             ></img>
           </li>
-        
-      </ul>
-      <PastContainer>
-        <h2>past</h2>
-        <ul>
           <li>
             October 26th, 2024:{" "}
             <a
@@ -66,14 +71,16 @@ export default () => (
               rel="noopener noreferrer"
             >
               Malo Moray
-            </a>{" "}and <a
+            </a>{" "}
+            and{" "}
+            <a
               href={"https://www.instagram.com/deuxfemmesmusic/"}
               target="_blank"
               rel="noopener noreferrer"
             >
               Deux Femmes
-            </a> at iRRland2
-          
+            </a>{" "}
+            at iRRland2
             {/* <img
               width={"33%"}
               src={"/images/gigs/240613_ig_resized.jpg"}
