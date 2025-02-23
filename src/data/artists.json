@@ -1,5 +1,25 @@
 [
-
+    {
+        "title": "Samt Martin",
+        "description": "Familiar yet refreshingly different, Berlin-based band Samt Martin lets ‘90s-inspired indie rock reappear in a new guise. Layers of dreamy guitars and driving rhythms give rise to modern themes: of everyday yearning and letting go, of new beginnings and living in the moment. Wooden hearts and monuments of lead are joined by androids, songbirds, and ghosts, offering a playful wink from the band’s multifaceted songs. With one foot in the past and their gaze always fixed forward, Samt Martin uniquely blends musical nostalgia with emotional utopia. After all, everything stays the same – as long as it keeps changing.",
+        "image": "/images/artists/samt_martin/artist.jpg",
+        "links": [
+            {
+                "text": "spotify",
+                "url": "https://open.spotify.com/artist/22jMoawsR2u3MjE3wnvUZC?si=Ys96dpEETRCyRMflucgQgA"
+            },
+            {
+                "text": "bandcamp",
+                "url": "https://samtmartin.bandcamp.com/"
+            }
+        ],
+        "releases": [
+            {
+                "title": "Antennen auf Empfang",
+                "image": "/images/artists/samt_martin/releases/antennen_auf_empfang.jpg"
+            }
+        ]
+    },
     {
         "title": "Lens Arc",
         "description": "Lens Arc is the name that Thomas Haida, originally from a tiny village in Bavaria and now residing in Berlin, has chosen for his musical outlet -- with everything made by himself in the various bedrooms that he has physically occupied over time (and most of the time). His music aspires to be a nit-picked blend of sounds from various inspirations, like the warbled guitars of shoegaze with a droning voice drenched in dark reverb, some hazy ambient synths borrowed from 80s new age albums and the hypnagogic lofi-ness of early 2010s Bandcamp psych pop tapes.",
