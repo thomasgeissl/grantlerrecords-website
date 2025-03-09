@@ -22,7 +22,35 @@ export default () => (
       <h1>gigs</h1>
       <h2>upcoming</h2>
       <ul>
-        <li>tba</li>
+        <li>
+            April 5th, 2025: {" "}
+            <a
+              href={"https://bibifinster.bandcamp.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Bibi Finster
+            </a>
+            {", "}
+            <a
+              href={"https://ohnonoh.bandcamp.com/album/oh-no-noh"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Oh No Noh
+            </a>
+            {" "}
+            at Mucca
+            <br />
+            <img
+              width={"33%"}
+              src={"/images/gigs/bibifinster-ohnonoh-ig_post_squared.png"}
+              alt={
+                "illustrated poster of the event showing the artists as well as date and location"
+              }
+              style={{ marginTop: "24px" }}
+            ></img>
+          </li>
       </ul>
       <PastContainer>
         <h2>past</h2>
