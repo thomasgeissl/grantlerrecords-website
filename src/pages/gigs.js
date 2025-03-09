@@ -41,6 +41,14 @@ export default () => (
             </a>
             {" "}
             at Mucca
+            {" "}
+            <a
+              href={"https://t.rausgegangen.de/tickets/bibi-finster-oh-no-noh"}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              tickets
+            </a>
             <br />
             <img
               width={"33%"}
